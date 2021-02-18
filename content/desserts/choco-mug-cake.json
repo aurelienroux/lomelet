@@ -1,0 +1,44 @@
+{
+  "title": "chocolat mug cake",
+  "instructions": "faut melanger",
+  "qty": 1,
+  "picture": "https://www.lacuisinedejeanphilippe.com/wp-content/uploads//2020/04/IMG_5276-scaled.jpg",
+  "macros": {
+    "calories": 281,
+    "prot": 4.2,
+    "fat": 15.3,
+    "carbs": 46.7
+  },
+  "ingredients": [
+    {
+      "name": "poudre de cacao",
+      "qty": 2,
+      "unit": "cuillere a soupe"
+    },
+    {
+      "name": "huile de canola",
+      "qty": 1,
+      "unit": "cuillere a soupe"
+    },
+    {
+      "name": "levure",
+      "qty": 0.25,
+      "unit": "cuillere a cafe"
+    },
+    {
+      "name": "sucre",
+      "qty": 2,
+      "unit": "cuilleres a soupe"
+    },
+    {
+      "name": "lait d'amande",
+      "qty": 3,
+      "unit": "cuillere a soupe"
+    },
+    {
+      "name": "farine",
+      "qty": 2,
+      "unit": "cuillere a soupe"
+    }
+  ]
+}

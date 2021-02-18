@@ -1,0 +1,39 @@
+{
+  "title": "ratatouille jambon gratinee",
+  "instructions": "faut melanger",
+  "qty": 4,
+  "picture": "https://cdn.pratico-pratiques.com/app/uploads/sites/2/2018/08/29093041/ratatouille-au-jambon-gratinee.jpeg",
+  "macros": {
+    "calories": 344,
+    "prot": 24,
+    "fat": 19,
+    "carbs": 21
+  },
+  "ingredients": [
+    {
+      "name": "poivrons",
+      "qty": 3.5,
+      "unit": "unite"
+    },
+    {
+      "name": "courgettes",
+      "qty": 2,
+      "unit": "unite"
+    },
+    {
+      "name": "jambon",
+      "qty": 350,
+      "unit": "g"
+    },
+    {
+      "name": "tomates en des",
+      "qty": 540,
+      "unit": "ml"
+    },
+    {
+      "name": "mozzarella",
+      "qty": 375,
+      "unit": "ml"
+    }
+  ]
+}
