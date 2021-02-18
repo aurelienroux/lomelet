@@ -1,14 +1,14 @@
 <template>
   <div>
-    <h1>desserts</h1>
-
-    <nuxt-link
-      v-for="(recipe, index) in recipes"
-      :key="index"
-      :to="'desserts/' + recipe.slug"
-    >
-      {{ recipe.title }}
-    </nuxt-link>
+    <Hero title="desserts" />
+    <div class="container">
+      <Recipe
+        v-for="(recipe, index) in recipes"
+        :key="index"
+        :recipe="recipe"
+        category="desserts"
+      />
+    </div>
   </div>
 </template>
 
@@ -21,3 +21,12 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.container {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  padding: 4rem;
+}
+</style>
