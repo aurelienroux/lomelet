@@ -1,15 +1,10 @@
 <template>
   <div>
-    <div>
-      <nuxt-link to="/">accueil</nuxt-link>
-      <nuxt-link to="/principaux">plats principaux</nuxt-link>
-      <nuxt-link to="/desserts">desserts</nuxt-link>
-    </div>
     <Nuxt />
   </div>
 </template>
 
-<style>
+<style lang="scss">
 html {
   -moz-osx-font-smoothing: grayscale;
   -ms-text-size-adjust: 100%;
@@ -17,7 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 10px;
 }
 
 *,
@@ -25,5 +20,9 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 </style>
