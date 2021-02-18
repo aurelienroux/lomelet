@@ -33,6 +33,8 @@ export default {
 
   img {
     border-radius: 1rem 1rem 0 0;
+    height: 15rem;
+    object-fit: cover;
     width: 100%;
   }
 

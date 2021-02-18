@@ -25,8 +25,8 @@ export default {
 <style lang="scss" scoped>
 .container {
   display: grid;
-  gap: 4rem;
-  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
-  padding: 4rem;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  padding: 2rem;
 }
 </style>
