@@ -1,6 +1,5 @@
 {
   "title": "ratatouille jambon gratinee",
-  "instructions": "faut melanger",
   "qty": 4,
   "picture": "https://cdn.pratico-pratiques.com/app/uploads/sites/2/2018/08/29093041/ratatouille-au-jambon-gratinee.jpeg",
   "macros": {
@@ -10,6 +9,16 @@
     "carbs": 21
   },
   "ingredients": [
+    {
+      "name": "oignon",
+      "qty": 1,
+      "unit": "unite"
+    },
+    {
+      "name": "ail",
+      "qty": 2,
+      "unit": "gousses"
+    },
     {
       "name": "poivrons",
       "qty": 3.5,
@@ -35,5 +44,12 @@
       "qty": 375,
       "unit": "ml"
     }
+  ],
+  "instructions": [
+    "Préchauffer le four à la position « gril » (broil).",
+    "Dans une poêle allant au four, chauffer l’huile d’olive à feu moyen. Cuire l’oignon et, si désiré, l’ail de 1 à 2 minutes.",
+    "Ajouter les poivrons, les courgettes et le jambon. Cuire de 3 à 4 minutes.",
+    "Ajouter les tomates en dés. Cuire 8 minutes. Saler et poivrer.",
+    "Parsemer la préparation de fromage. Faire gratiner au four de 3 à 4 minutes."
   ]
 }

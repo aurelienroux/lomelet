@@ -9,16 +9,26 @@
     </div>
 
     <div v-for="(ingredient, index) in recipe.ingredients" :key="index">
-      quantite: {{ (ingredient.qty / recipe.qty) * portionQty }}
+      {{ (ingredient.qty / recipe.qty) * portionQty }}
       {{ ingredient.unit }}
       {{ ingredient.name }}
     </div>
 
+    <hr />
     <div>
       par portion
       {{ recipe.macros }}
     </div>
 
+    <hr />
+    <div
+      v-for="(instruction, index) in recipe.instructions"
+      :key="'inst-' + index"
+    >
+      {{ instruction }}
+    </div>
+
+    <hr />
     <img :src="recipe.picture" alt="" />
   </div>
 </template>
@@ -37,3 +47,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+img {
+  width: 300px;
+}
+</style>
