@@ -1,5 +1,22 @@
 <template>
   <div>
-    <h1>home</h1>
+    <MainHero />
+    <div class="container">
+      <CatLink category="principaux" />
+      <CatLink category="desserts" />
+    </div>
   </div>
 </template>
+
+<script>
+export default {}
+</script>
+
+<style lang="scss" scoped>
+.container {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  padding: 4rem;
+}
+</style>
