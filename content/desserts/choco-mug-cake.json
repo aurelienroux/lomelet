@@ -4,9 +4,9 @@
   "picture": "https://www.lacuisinedejeanphilippe.com/wp-content/uploads//2020/04/IMG_5276-scaled.jpg",
   "qty": 1,
   "macros": {
-    "proteines": 4.2,
-    "lipides": 15.3,
-    "glucides": 46.7
+    "proteines": 4,
+    "lipides": 15,
+    "glucides": 47
   },
   "ingredients": [
     {

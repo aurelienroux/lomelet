@@ -10,7 +10,7 @@
   },
   "ingredients": [
     {
-      "name": "poivrons",
+      "name": "poivron",
       "qty": 4,
       "unit": "unite"
     },
@@ -37,7 +37,7 @@
     {
       "name": "oignon",
       "qty": 1,
-      "unit": "unité"
+      "unit": "unite"
     }
   ],
   "instructions": [
