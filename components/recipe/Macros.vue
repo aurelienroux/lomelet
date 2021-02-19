@@ -1,16 +1,18 @@
 <template>
-  <div class="glob-container">
-    par portion
-    <table>
-      <tr>
-        <td>calories</td>
-        <td>{{ totalCal }}</td>
-      </tr>
-      <tr v-for="(value, key) in macros" :key="key">
-        <td>{{ key }}</td>
-        <td>{{ value }}</td>
-      </tr>
-    </table>
+  <div class="glob-container container">
+    <div class="section">par portion</div>
+    <div class="section">
+      <table>
+        <tr>
+          <td>calories</td>
+          <td>{{ totalCal }}</td>
+        </tr>
+        <tr v-for="(value, key) in macros" :key="key">
+          <td>{{ key }}</td>
+          <td class="value">{{ value }}g</td>
+        </tr>
+      </table>
+    </div>
   </div>
 </template>
 
@@ -31,4 +33,24 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.container {
+  display: flex;
+  font-size: 2rem;
+}
+
+.section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+td {
+  padding: 0.3rem;
+}
+
+.value {
+  text-align: right;
+}
+</style>

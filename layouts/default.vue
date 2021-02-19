@@ -29,7 +29,6 @@ a {
 }
 
 .glob-container {
-  background: pink;
   border: 1px dashed;
   padding: $padding-s;
 }
