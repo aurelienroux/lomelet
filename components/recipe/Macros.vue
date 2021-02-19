@@ -2,6 +2,10 @@
   <div class="container">
     par portion
     <table>
+      <tr>
+        <td>calories</td>
+        <td>{{ totalCal }}</td>
+      </tr>
       <tr v-for="(value, key) in macros" :key="key">
         <td>{{ key }}</td>
         <td>{{ value }}</td>
@@ -16,6 +20,12 @@ export default {
     macros: {
       type: Object,
       default: () => {},
+    },
+  },
+  computed: {
+    totalCal() {
+      const { proteines, lipides, glucides } = this.macros
+      return Math.floor(proteines * 4 + glucides * 4 + lipides * 9)
     },
   },
 }
