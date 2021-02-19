@@ -4,9 +4,9 @@
   "picture": "https://cdn.pratico-pratiques.com/app/uploads/sites/2/2019/01/10102756/poivrons-farcies-au-chili.jpg",
   "macros": {
     "calories": 475,
-    "prot": 26,
-    "fat": 26,
-    "carbs": 34
+    "proteines": 26,
+    "lipides": 26,
+    "glucides": 34
   },
   "ingredients": [
     {
@@ -41,12 +41,12 @@
     }
   ],
   "instructions": [
-    "Faire cuire le riz",
-    "Couper les poivrons en deux sur la longueur",
-    "Dans une poêle , chauffer de l'huile et faire cuire la viande 4 à 5 minutes",
-    "Incorporer les assaisonnements italiens et cuire 2 à 3 minutes",
-    "Ajouter le riz cuit et la moitié de la sauce marinara. Saler et poivrer",
-    "Garnir les demi-poivrons avec la préparation au boeuf",
+    "Faire cuire le riz,",
+    "Couper les poivrons en deux sur la longueur,",
+    "Dans une poêle, chauffer de l'huile et faire cuire la viande 4 à 5 minutes,",
+    "Incorporer les assaisonnements italiens et cuire 2 à 3 minutes,",
+    "Ajouter le riz cuit et la moitié de la sauce marinara. Saler et poivrer,",
+    "Garnir les demi-poivrons avec la préparation au boeuf,",
     "Cuire au four à 190c de 25 à 30 minutes"
   ]
 }

@@ -4,9 +4,9 @@
   "picture": "https://cdn.pratico-pratiques.com/app/uploads/sites/2/2018/08/29093041/ratatouille-au-jambon-gratinee.jpeg",
   "macros": {
     "calories": 344,
-    "prot": 24,
-    "fat": 19,
-    "carbs": 21
+    "proteines": 24,
+    "lipides": 19,
+    "glucides": 21
   },
   "ingredients": [
     {
@@ -46,10 +46,10 @@
     }
   ],
   "instructions": [
-    "Préchauffer le four à la position « gril » (broil).",
-    "Dans une poêle allant au four, chauffer l’huile d’olive à feu moyen. Cuire l’oignon et, si désiré, l’ail de 1 à 2 minutes.",
-    "Ajouter les poivrons, les courgettes et le jambon. Cuire de 3 à 4 minutes.",
-    "Ajouter les tomates en dés. Cuire 8 minutes. Saler et poivrer.",
-    "Parsemer la préparation de fromage. Faire gratiner au four de 3 à 4 minutes."
+    "Préchauffer le four à la position « gril » (broil),",
+    "Dans une poêle allant au four, chauffer l’huile d’olive à feu moyen. Cuire l’oignon et, si désiré, l’ail de 1 à 2 minutes,",
+    "Ajouter les poivrons, les courgettes et le jambon. Cuire de 3 à 4 minutes,",
+    "Ajouter les tomates en dés. Cuire 8 minutes. Saler et poivrer,",
+    "Parsemer la préparation de fromage. Faire gratiner au four de 3 à 4 minutes"
   ]
 }
