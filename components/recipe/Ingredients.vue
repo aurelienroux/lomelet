@@ -73,8 +73,10 @@ export default {
 }
 
 .numbers {
-  text-align: right;
   color: orangered;
+  min-width: 8rem;
+  text-align: right;
+  vertical-align: top;
 }
 
 tr {
