@@ -1,5 +1,5 @@
 <template>
-  <div class="glob-container container">
+  <div class="container">
     <h2 class="section-title">Macros</h2>
     <table>
       <tr>
@@ -34,6 +34,7 @@ export default {
 <style lang="scss" scoped>
 .container {
   font-size: $font-size;
+  margin-bottom: 4rem;
 }
 
 td {

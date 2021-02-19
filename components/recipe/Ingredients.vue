@@ -1,5 +1,5 @@
 <template>
-  <div class="glob-container container">
+  <div class="container">
     <h2 class="section-title">Ingredients</h2>
     <div class="controls">
       <div>{{ portionQty }} personne<span v-if="portionQty > 1">s</span></div>
@@ -54,6 +54,7 @@ export default {
 <style lang="scss" scoped>
 .container {
   font-size: $font-size;
+  margin-bottom: 4rem;
 }
 
 .controls {

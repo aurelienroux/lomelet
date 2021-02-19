@@ -1,7 +1,7 @@
 <template>
-  <div class="glob-container container">
+  <div class="container">
     <h2 class="section-title">Instructions</h2>
-    <ul class="container">
+    <ul>
       <li v-for="(instruction, index) in instructions" :key="'inst-' + index">
         {{ instruction }}
       </li>
@@ -23,8 +23,7 @@ export default {
 <style lang="scss" scoped>
 .container {
   font-size: $font-size;
-  list-style-type: none;
-  padding-left: 2rem;
+  margin-bottom: 4rem;
 }
 
 li {
