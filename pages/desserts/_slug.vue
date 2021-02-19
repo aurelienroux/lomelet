@@ -1,25 +1,18 @@
 <template>
   <div>
-    <h1>{{ recipe.title }}</h1>
-
-    <input id="" v-model="portionQty" type="number" />
-
-    <div>
-      pour {{ portionQty }} personne<span v-if="portionQty > 1">s</span>
-    </div>
-
-    <div v-for="(ingredient, index) in recipe.ingredients" :key="index">
-      quantite: {{ (ingredient.qty / recipe.qty) * portionQty }}
-      {{ ingredient.unit }}
-      {{ ingredient.name }}
-    </div>
-
-    <div>
-      par portion
-      {{ recipe.macros }}
-    </div>
-
-    <img :src="recipe.picture" alt="" />
+    <Hero :title="recipe.title" />
+    <a
+      v-if="recipe.source"
+      :href="recipe.source"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      recette originale
+    </a>
+    <RecipeMacros :macros="recipe.macros" />
+    <RecipeIngredients :ingredients="recipe.ingredients" :qty="recipe.qty" />
+    <RecipeInstructions :instructions="recipe.instructions" />
+    <!-- <img :src="recipe.picture" alt="" /> -->
   </div>
 </template>
 
@@ -30,10 +23,11 @@ export default {
 
     return { recipe }
   },
-  data() {
-    return {
-      portionQty: 1,
-    }
-  },
 }
 </script>
+
+<style scoped>
+img {
+  width: 300px;
+}
+</style>
