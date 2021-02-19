@@ -23,7 +23,7 @@
 
   .left {
     align-items: center;
-    color: white;
+    color: $color-white;
     display: flex;
     font-family: $playfair;
     font-size: 8rem;

@@ -28,7 +28,7 @@ export default {
   padding: 3rem 1.5rem 6rem;
 
   h1 {
-    color: white;
+    color: $color-white;
     font-family: $playfair;
     font-size: 5rem;
     text-align: center;
