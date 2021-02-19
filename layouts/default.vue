@@ -13,7 +13,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: $montserrat;
   font-size: 10px;
 }
 
@@ -29,7 +29,6 @@ a {
 }
 
 .glob-container {
-  border: 1px dashed;
   padding: $padding-s;
 }
 </style>

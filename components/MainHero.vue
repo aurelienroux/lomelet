@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <div class="left">Rooks Cooks!</div>
+    <h1 class="left">Rooks Cooks!</h1>
     <div class="right">
       <img src="~/assets/images/home-plate-cut.png" alt="" />
     </div>
@@ -25,6 +25,7 @@
     align-items: center;
     color: black;
     display: flex;
+    font-family: $playfair;
     font-size: 6rem;
     grid-column: 1/3;
     grid-row: 1/2;
@@ -33,6 +34,7 @@
   }
 
   .right {
+    align-self: center;
     grid-column: 2/4;
     grid-row: 1/2;
   }
