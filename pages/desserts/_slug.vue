@@ -1,14 +1,7 @@
 <template>
   <div>
     <Hero :title="recipe.title" />
-    <a
-      v-if="recipe.source"
-      :href="recipe.source"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      recette originale
-    </a>
+    <RecipeOrigin :source="recipe.source" />
     <RecipeMacros :macros="recipe.macros" />
     <RecipeIngredients :ingredients="recipe.ingredients" :qty="recipe.qty" />
     <RecipeInstructions :instructions="recipe.instructions" />
