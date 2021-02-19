@@ -11,8 +11,8 @@
 .hero {
   background: linear-gradient(
     90deg,
-    rgba(234, 131, 14, 1) 0%,
-    rgba(252, 202, 70, 1) 100%
+    rgba(212, 124, 25, 1) 0%,
+    rgba(224, 180, 61, 1) 100%
   );
   display: grid;
   grid-template-columns: 3fr 1fr 3fr;
@@ -23,10 +23,10 @@
 
   .left {
     align-items: center;
-    color: black;
+    color: white;
     display: flex;
     font-family: $playfair;
-    font-size: 6rem;
+    font-size: 8rem;
     grid-column: 1/3;
     grid-row: 1/2;
     padding: $padding-s;

@@ -18,15 +18,20 @@ export default {
 <style lang="scss" scoped>
 .hero {
   align-items: center;
-  background-color: lime;
+  background: linear-gradient(
+    90deg,
+    rgba(212, 124, 25, 1) 0%,
+    rgba(224, 180, 61, 1) 100%
+  );
   display: flex;
   justify-content: center;
-  min-height: 20rem;
-  padding: $padding-s;
+  padding: 3rem 1.5rem 6rem;
 
   h1 {
-    color: red;
-    font-size: 6rem;
+    color: white;
+    font-family: $playfair;
+    font-size: 5rem;
+    text-align: center;
     z-index: 10;
   }
 }

@@ -33,6 +33,12 @@ export default {
 
 <style lang="scss" scoped>
 nav {
+  background: linear-gradient(
+    90deg,
+    rgba(212, 124, 25, 1) 0%,
+    rgba(224, 180, 61, 1) 100%
+  );
+
   &.open .container {
     transform: translateX(0%);
     transition: 0.3s;
