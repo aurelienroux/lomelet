@@ -12,10 +12,12 @@
 <style lang="scss" scoped>
 footer {
   border: 1px solid;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
   padding: 0.7rem;
+  z-index: 10;
+  background: white;
 }
 </style>
