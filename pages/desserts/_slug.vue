@@ -1,10 +1,10 @@
 <template>
   <div>
     <Hero :title="recipe.title" />
-    <RecipeOrigin :source="recipe.source" />
     <RecipeMacros :macros="recipe.macros" />
     <RecipeIngredients :ingredients="recipe.ingredients" :qty="recipe.qty" />
     <RecipeInstructions :instructions="recipe.instructions" />
+    <RecipeOrigin :source="recipe.source" />
     <!-- <img :src="recipe.picture" alt="" /> -->
   </div>
 </template>
