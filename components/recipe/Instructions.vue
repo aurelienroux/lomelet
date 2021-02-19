@@ -1,8 +1,10 @@
 <template>
   <div class="glob-container">
-    <div v-for="(instruction, index) in instructions" :key="'inst-' + index">
-      {{ instruction }}
-    </div>
+    <ul class="container">
+      <li v-for="(instruction, index) in instructions" :key="'inst-' + index">
+        {{ instruction }}
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -17,4 +19,27 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.container {
+  font-size: 2rem;
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+li {
+  position: relative;
+  margin-bottom: 1rem;
+
+  &:before {
+    background: red;
+    border-radius: 100%;
+    content: '';
+    display: inline-block;
+    height: 1rem;
+    left: -2rem;
+    position: absolute;
+    top: 0.8rem;
+    width: 1rem;
+  }
+}
+</style>
