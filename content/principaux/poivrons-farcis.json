@@ -1,9 +1,9 @@
 {
   "title": "poivrons farcis",
-  "qty": 4,
+  "source": "",
   "picture": "https://cdn.pratico-pratiques.com/app/uploads/sites/2/2019/01/10102756/poivrons-farcies-au-chili.jpg",
+  "qty": 4,
   "macros": {
-    "calories": 475,
     "proteines": 26,
     "lipides": 26,
     "glucides": 34

@@ -1,9 +1,9 @@
 {
   "title": "ratatouille jambon gratinee",
-  "qty": 4,
+  "source": "https://www.5ingredients15minutes.com/fr/recettes/plats-principaux/jambon/ratatouille-au-jambon-gratinee/",
   "picture": "https://cdn.pratico-pratiques.com/app/uploads/sites/2/2018/08/29093041/ratatouille-au-jambon-gratinee.jpeg",
+  "qty": 4,
   "macros": {
-    "calories": 344,
     "proteines": 24,
     "lipides": 19,
     "glucides": 21

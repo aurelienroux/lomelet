@@ -1,13 +1,12 @@
 {
   "title": "chocolat mug cake",
-  "instructions": "faut melanger",
-  "qty": 1,
+  "source": "https://www.lacuisinedejeanphilippe.com/recipe/gateau-mug-cake-au-chocolat/",
   "picture": "https://www.lacuisinedejeanphilippe.com/wp-content/uploads//2020/04/IMG_5276-scaled.jpg",
+  "qty": 1,
   "macros": {
-    "calories": 281,
-    "prot": 4.2,
-    "fat": 15.3,
-    "carbs": 46.7
+    "proteines": 4.2,
+    "lipides": 15.3,
+    "glucides": 46.7
   },
   "ingredients": [
     {
@@ -40,5 +39,10 @@
       "qty": 2,
       "unit": "cuillere a soupe"
     }
+  ],
+  "instructions": [
+    "Déposer la farine, la poudre de cacao, le sucre, le sel et la poudre à pâte dans une tasse. Bien mélanger,",
+    "Ajouter l'huile, le lait végétal, la vanille et bien mélanger,",
+    "Faire cuire au micro-ondes 40 secondes. Il sera mi-cuit au milieu à ce stade, ce qui est délicieux, mais si vous voulez qu'il soit plus cuit, poursuivez la cuisson 20 secondes."
   ]
 }
