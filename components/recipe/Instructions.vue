@@ -26,6 +26,10 @@ export default {
   margin-bottom: 4rem;
 }
 
+ul {
+  padding-left: 2rem;
+}
+
 li {
   position: relative;
   margin-bottom: 1rem;

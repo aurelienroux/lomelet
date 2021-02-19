@@ -1,12 +1,14 @@
 <template>
   <div class="container">
     <h2 class="section-title">Ingredients</h2>
-    <div class="controls">
-      <div>{{ portionQty }} personne<span v-if="portionQty > 1">s</span></div>
-      <div class="control">
-        <button @click="portionQty++">+</button>
-        <button :disabled="portionQty < 2" @click="portionQty--">-</button>
+
+    <div class="control">
+      <button :disabled="portionQty < 2" @click="portionQty--">-</button>
+      <div class="text">
+        <div class="numbers">{{ portionQty }}</div>
+        <div>personne<span v-if="portionQty > 1">s</span></div>
       </div>
+      <button @click="portionQty++">+</button>
     </div>
 
     <div class="ingredients">
@@ -57,14 +59,31 @@ export default {
   margin-bottom: 4rem;
 }
 
-.controls {
-  text-align: center;
-}
-
 .control {
   align-items: center;
   display: flex;
-  justify-content: center;
+  font-weight: bold;
+
+  .text {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  button {
+    align-items: center;
+    background: $color-tangerine;
+    border-radius: 100%;
+    border: none;
+    display: flex;
+    height: 6rem;
+    justify-content: center;
+    width: 6rem;
+
+    &:disabled {
+      background: lighten($color-tangerine, $amount: 30);
+    }
+  }
 }
 
 .ingredients {
@@ -74,20 +93,9 @@ export default {
 
 .numbers {
   color: $color-tangerine;
-  font-weight: bold;
+  font-size: 2.2rem;
   min-width: 8rem;
-  text-align: right;
+  text-align: center;
   vertical-align: top;
-}
-
-button {
-  align-items: center;
-  border-radius: 100%;
-  border: 1px solid;
-  display: flex;
-  height: 6rem;
-  justify-content: center;
-  margin: 2rem;
-  width: 6rem;
 }
 </style>
