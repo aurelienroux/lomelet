@@ -31,4 +31,9 @@ a {
 .glob-container {
   padding: $padding-s;
 }
+
+.section-title {
+  font-family: $playfair;
+  margin-bottom: 1rem;
+}
 </style>
