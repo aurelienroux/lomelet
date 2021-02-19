@@ -55,7 +55,7 @@ nav {
     border: 1px solid;
     display: block;
     font-size: 2rem;
-    padding: 2rem;
+    padding: $padding-s;
   }
 }
 </style>

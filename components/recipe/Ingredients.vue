@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="glob-container">
     <div>
       pour {{ portionQty }} personne<span v-if="portionQty > 1">s</span>
     </div>
@@ -33,9 +33,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.container {
-  border: 1px solid;
-  padding: 1rem;
-}
-</style>
+<style lang="scss" scoped></style>

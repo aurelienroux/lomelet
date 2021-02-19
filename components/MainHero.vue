@@ -10,8 +10,8 @@
   background-color: lime;
   display: flex;
   justify-content: center;
-  min-height: 40rem;
-  padding: 4rem;
+  min-height: 30rem;
+  padding: $padding-s;
 
   h1 {
     color: red;

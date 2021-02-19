@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero title="plats principaux" />
-    <div class="container">
+    <div class="glob-container container">
       <Recipe
         v-for="(recipe, index) in recipes"
         :key="index"
@@ -27,6 +27,5 @@ export default {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-  padding: 2rem;
 }
 </style>

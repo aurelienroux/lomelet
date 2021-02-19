@@ -27,4 +27,10 @@ html {
 a {
   text-decoration: none;
 }
+
+.glob-container {
+  background: pink;
+  border: 1px dashed;
+  padding: $padding-s;
+}
 </style>

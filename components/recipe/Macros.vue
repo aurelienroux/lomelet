@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="glob-container">
     par portion
     <table>
       <tr>
@@ -31,9 +31,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.container {
-  border: 1px solid;
-  padding: 1rem;
-}
-</style>
+<style lang="scss" scoped></style>

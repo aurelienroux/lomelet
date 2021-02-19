@@ -1,7 +1,7 @@
 <template>
   <div>
     <MainHero />
-    <div class="container">
+    <div class="glob-container container">
       <CatLink category="principaux" />
       <CatLink category="desserts" />
     </div>
@@ -11,8 +11,7 @@
 <style lang="scss" scoped>
 .container {
   display: grid;
-  gap: 4rem;
-  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
-  padding: 4rem;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
 }
 </style>
