@@ -22,8 +22,8 @@ export default {
 <style lang="scss" scoped>
 .container {
   font-size: 2rem;
-  padding-left: 2rem;
   list-style-type: none;
+  padding-left: 2rem;
 }
 
 li {

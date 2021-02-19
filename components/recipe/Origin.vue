@@ -1,6 +1,6 @@
 <template>
-  <div class="glob-container">
-    <a v-if="source" :href="source" target="_blank" rel="noopener noreferrer">
+  <div v-if="source" class="glob-container container">
+    <a :href="source" target="_blank" rel="noopener noreferrer">
       Voir la recette originale =>
     </a>
   </div>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-div {
+.container {
   font-size: 2rem;
   text-align: center;
 }
