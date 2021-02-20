@@ -1,5 +1,13 @@
 <template>
-  <nuxt-link :to="recipeUrl" class="recipe-link">
+  <nuxt-link
+    :to="recipeUrl"
+    class="recipe-link"
+    :class="{
+      thermomix: recipe.cat.thermomix,
+      vegan: recipe.cat.vegan,
+      vege: recipe.cat.vege,
+    }"
+  >
     <img :src="recipe.picture" :alt="recipe.title" loading="lazy" />
     <h2>{{ recipe.title }}</h2>
   </nuxt-link>

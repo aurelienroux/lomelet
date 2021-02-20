@@ -5,8 +5,8 @@
   "qty": 4,
   "cat": {
     "thermomix": false,
-    "vegan": false,
-    "vege": false
+    "vege": false,
+    "vegan": false
   },
   "times": {
     "cooking": 15,
