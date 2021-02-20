@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2 class="section-title">Macros</h2>
+    <h2 class="section-title">Par portion</h2>
     <table>
       <tr>
         <td>calories</td>

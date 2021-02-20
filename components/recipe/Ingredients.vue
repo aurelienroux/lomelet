@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <h2 class="section-title">Ingredients</h2>
-
     <div class="control">
       <button :disabled="portionQty < 2" @click="portionQty--">-</button>
       <div class="text">
@@ -10,21 +9,12 @@
       </div>
       <button @click="portionQty++">+</button>
     </div>
-
-    <div class="ingredients">
-      <table>
-        <tr v-for="(ing, index) in ingredients" :key="index">
-          <td class="numbers">{{ portionCalc(ing) }}</td>
-          <td>
-            <span v-if="ing.unit !== 'unite'">
-              {{ ing.unit }}
-            </span>
-            {{ ing.name
-            }}<span v-if="ing.unit === 'unite' && portionCalc(ing) > 1">s</span>
-          </td>
-        </tr>
-      </table>
-    </div>
+    <RecipeIngredient
+      v-for="(ing, index) in ingredients"
+      :key="index"
+      :ing="ing"
+      :portion="portionCalc(ing)"
+    />
   </div>
 </template>
 
@@ -63,11 +53,17 @@ export default {
   align-items: center;
   display: flex;
   font-weight: bold;
+  margin-bottom: 1rem;
 
   .text {
     flex: 1;
     padding: 2rem;
     text-align: center;
+  }
+
+  .numbers {
+    color: $color-tangerine;
+    font-size: 2.2rem;
   }
 
   button {
@@ -84,18 +80,5 @@ export default {
       background: lighten($color-tangerine, $amount: 30);
     }
   }
-}
-
-.ingredients {
-  flex: 3;
-  padding-left: 1rem;
-}
-
-.numbers {
-  color: $color-tangerine;
-  font-size: 2.2rem;
-  min-width: 8rem;
-  text-align: center;
-  vertical-align: top;
 }
 </style>
