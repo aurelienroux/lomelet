@@ -15,5 +15,9 @@ footer {
   padding: 0.7rem;
   text-align: center;
   width: 100%;
+
+  a {
+    color: $color-tangerine;
+  }
 }
 </style>
