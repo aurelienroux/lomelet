@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero title="Plats principaux" />
+    <CatHero title="Plats principaux" />
     <div class="glob-container container">
       <Recipe
         v-for="(recipe, index) in recipes"

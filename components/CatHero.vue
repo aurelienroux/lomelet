@@ -18,11 +18,7 @@ export default {
 <style lang="scss" scoped>
 .hero {
   align-items: center;
-  background: linear-gradient(
-    90deg,
-    rgba(212, 124, 25, 1) 0%,
-    rgba(224, 180, 61, 1) 100%
-  );
+  background: $color-bg-gradient;
   display: flex;
   justify-content: center;
   padding: 3rem 1.5rem 6rem;
