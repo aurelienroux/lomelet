@@ -50,7 +50,7 @@ export default {
 .checked,
 .non-checked {
   border-radius: 100%;
-  border: 0.2rem solid black;
+  border: 0.2rem solid $color-black;
   display: inline-block;
   height: 3rem;
   margin-right: 2rem;

@@ -9,11 +9,7 @@
 
 <style lang="scss" scoped>
 .hero {
-  background: linear-gradient(
-    90deg,
-    rgba(212, 124, 25, 1) 0%,
-    rgba(224, 180, 61, 1) 100%
-  );
+  background: $color-bg-gradient;
   display: grid;
   grid-template-columns: 3fr 1fr 3fr;
   grid-template-rows: 1fr;
