@@ -1,7 +1,9 @@
 <template>
   <div class="ingredient" @click="toggleCheck">
-    <span v-if="checked" class="checked"></span>
-    <span v-else class="non-checked"></span>
+    <div>
+      <span v-if="checked" class="checked"></span>
+      <span v-else class="non-checked"></span>
+    </div>
     <div>
       <span class="numbers">{{ portion }}</span>
       <span v-if="ing.unit !== 'unite'">{{ ing.unit }}</span>
@@ -51,7 +53,7 @@ export default {
 .non-checked {
   border-radius: 100%;
   border: 0.2rem solid $color-black;
-  display: inline-block;
+  display: block;
   height: 3rem;
   margin-right: 2rem;
   width: 3rem;
