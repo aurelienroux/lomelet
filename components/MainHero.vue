@@ -1,6 +1,9 @@
 <template>
   <div class="hero">
-    <h1 class="left">Rooks Cooks!</h1>
+    <div class="left">
+      <h1>Lomelet</h1>
+      <h2>Une collection de recettes faciles et pratiques</h2>
+    </div>
     <div class="right">
       <img src="~/assets/images/home-plate-cut.png" alt="" />
     </div>
@@ -11,22 +14,31 @@
 .hero {
   background: $color-bg-gradient;
   display: grid;
-  grid-template-columns: 3fr 1fr 3fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   max-height: 40rem;
   min-height: 30rem;
   overflow: hidden;
 
   .left {
-    align-items: center;
     color: $color-white;
     display: flex;
+    flex-direction: column;
     font-family: $playfair;
     font-size: 8rem;
     grid-column: 1/3;
     grid-row: 1/2;
+    justify-content: center;
     padding: $padding-s;
     z-index: 10;
+  }
+
+  h1 {
+    font-size: 7.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 
   .right {
