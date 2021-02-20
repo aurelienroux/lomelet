@@ -3,6 +3,15 @@
   "source": "https://www.lacuisinedejeanphilippe.com/recipe/gateau-mug-cake-au-chocolat/",
   "picture": "https://www.lacuisinedejeanphilippe.com/wp-content/uploads//2020/04/IMG_5276-scaled.jpg",
   "qty": 1,
+  "cat": {
+    "thermomix": false,
+    "vegan": true,
+    "vege": true
+  },
+  "times": {
+    "cooking": 1,
+    "prep": 4
+  },
   "macros": {
     "proteines": 4,
     "lipides": 15,

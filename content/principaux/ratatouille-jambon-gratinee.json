@@ -3,6 +3,15 @@
   "source": "https://www.5ingredients15minutes.com/fr/recettes/plats-principaux/jambon/ratatouille-au-jambon-gratinee/",
   "picture": "https://cdn.pratico-pratiques.com/app/uploads/sites/2/2018/08/29093041/ratatouille-au-jambon-gratinee.jpeg",
   "qty": 4,
+  "cat": {
+    "thermomix": false,
+    "vegan": false,
+    "vege": false
+  },
+  "times": {
+    "cooking": 15,
+    "prep": 15
+  },
   "macros": {
     "proteines": 24,
     "lipides": 19,

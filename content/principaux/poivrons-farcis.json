@@ -3,6 +3,15 @@
   "source": "",
   "picture": "https://cdn.pratico-pratiques.com/app/uploads/sites/2/2019/01/10102756/poivrons-farcies-au-chili.jpg",
   "qty": 4,
+  "cat": {
+    "thermomix": false,
+    "vegan": false,
+    "vege": false
+  },
+  "times": {
+    "cooking": 30,
+    "prep": 10
+  },
   "macros": {
     "proteines": 26,
     "lipides": 26,
