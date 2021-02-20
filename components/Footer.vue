@@ -11,6 +11,7 @@
 
 <style lang="scss" scoped>
 footer {
+  font-size: 1.6rem;
   padding: 0.7rem;
   text-align: center;
   width: 100%;

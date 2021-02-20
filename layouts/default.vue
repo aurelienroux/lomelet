@@ -25,6 +25,7 @@ html {
 }
 
 a {
+  color: $color-tangerine;
   text-decoration: none;
 }
 
