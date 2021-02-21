@@ -1,7 +1,7 @@
 <template>
   <nuxt-link :to="'/' + category" class="cat-link">
     <img :src="imageUrl" :alt="category" />
-    <h3>{{ category }}</h3>
+    <h2>{{ category }}</h2>
   </nuxt-link>
 </template>
 
@@ -24,7 +24,7 @@ export default {
 <style lang="scss" scoped>
 .cat-link {
   border-radius: 1rem;
-  border: 0.1rem solid;
+  box-shadow: $color-neumorphism;
   text-align: center;
 
   img {
@@ -34,6 +34,9 @@ export default {
 
   h2 {
     margin: 1rem;
+    color: $color-black;
+    font-size: 2rem;
+    text-transform: capitalize;
   }
 }
 </style>
