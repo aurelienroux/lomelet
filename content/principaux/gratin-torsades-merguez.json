@@ -1,0 +1,96 @@
+{
+  "title": "Gratin de torsades aux merguez",
+  "source": "https://www.cookomix.com/recettes/gratin-torsades-merguez-thermomix/",
+  "picture": "https://www.cookomix.com/wp-content/uploads/2020/10/gratin-torsades-merguez-thermomix-800x600.jpg",
+  "qty": 4,
+  "cat": {
+    "thermomix": true,
+    "vegetarien": false,
+    "vegan": false
+  },
+  "times": {
+    "cooking": null,
+    "prep": 10,
+    "total": 58
+  },
+  "nutrition": {
+    "calories": 619,
+    "macros": {
+      "proteines": null,
+      "glucides": null,
+      "lipides": null
+    }
+  },
+  "ingredients": [
+    {
+      "qty": 1,
+      "unit": "gousse",
+      "name": "ail"
+    },
+    {
+      "qty": 120,
+      "unit": "grammes",
+      "name": "oignon"
+    },
+    {
+      "qty": 1,
+      "unit": "cas",
+      "name": "huile d'olive"
+    },
+    {
+      "qty": 300,
+      "unit": "grammes",
+      "name": "creme fraiche liquide"
+    },
+    {
+      "qty": 200,
+      "unit": "grammes",
+      "name": "Lait demi-écrémé"
+    },
+    {
+      "qty": 300,
+      "unit": "grammes",
+      "name": "eau"
+    },
+    {
+      "qty": 1,
+      "unit": "cas",
+      "name": "Concentré de tomates"
+    },
+    {
+      "qty": 2,
+      "unit": "pincees",
+      "name": "sel"
+    },
+    {
+      "qty": 2,
+      "unit": "pincees",
+      "name": "poivre"
+    },
+    {
+      "qty": 300,
+      "unit": "grammes",
+      "name": "pate torsades"
+    },
+    {
+      "qty": 240,
+      "unit": "grammes",
+      "name": "merguez"
+    },
+    {
+      "qty": 120,
+      "unit": "grammes",
+      "name": "Fromage de chèvre râpé"
+    }
+  ],
+  "instructions": [
+    "Préchauffer le four à 175°C.",
+    "Mettre 1 gousse d'ail et 120 grammes d'oignons coupés en quatre dans le Thermomix. Mélanger 5 sec vitesse 5.",
+    "Ajouter 100 grammes de poivrons rouges coupés en dés et 1.5 cuillères à soupe d'huile d'olive dans le Thermomix. Rissoler 3 min 120°C vitesse 1.",
+    "Ajouter 300 grammes de crème fraîche liquide, 240 grammes de lait demi-écrémé, 300 grammes d'eau, 1 cuillère à soupe de concentré de tomates, 2 pincées de sel (à ajuster en fonction des goûts) et 2 pincées de poivre (à ajuster en fonction des goûts) dans le Thermomix. Cuire 5 min 100°C vitesse 2.5.",
+    "Mettre 300 grammes de torsades et 240 grammes de merguez coupés en tranches dans un plat à gratin.",
+    "Verser le contenu du bol du Thermomix sur les pates (qui ne sont pas cuites).",
+    "Mettre 120 grammes de fromage de chèvre râpé sur la préparation.",
+    "Mettre dans le four pendant 40 min à 175°C."
+  ]
+}

@@ -9,30 +9,33 @@
     "vegan": false
   },
   "times": {
-    "cooking": 1,
-    "prep": 1,
-    "total": 5
+    "cooking": null,
+    "prep": null,
+    "total": null
   },
-  "macros": {
-    "proteines": 1,
-    "glucides": 1,
-    "lipides": 1
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": null,
+      "glucides": null,
+      "lipides": null
+    }
   },
   "ingredients": [
     {
-      "name": "lorem",
       "qty": 1,
-      "unit": "lorem"
+      "unit": "lorem",
+      "name": "lorem"
     },
     {
-      "name": "lorem",
       "qty": 1,
-      "unit": "lorem"
+      "unit": "lorem",
+      "name": "lorem"
     }
   ],
   "instructions": [
-    "Loremipsumdolorsitametconsecteturadipisicingelit.",
-    "Loremipsumdolorsitametconsecteturadipisicingelit.",
-    "Loremipsumdolorsitametconsecteturadipisicingelit."
+    "Loremipsumdolorsitametconsecteturadipisicingelit",
+    "Loremipsumdolorsitametconsecteturadipisicingelit",
+    "Loremipsumdolorsitametconsecteturadipisicingelit"
   ]
 }

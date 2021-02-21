@@ -13,41 +13,44 @@
     "prep": 4,
     "total": 5
   },
-  "macros": {
-    "proteines": 4.2,
-    "glucides": 46.7,
-    "lipides": 15.3
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 4.2,
+      "glucides": 46.7,
+      "lipides": 15.3
+    }
   },
   "ingredients": [
     {
-      "name": "poudre de cacao",
       "qty": 2,
-      "unit": "cuillere a soupe"
+      "unit": "CAS",
+      "name": "poudre de cacao"
     },
     {
-      "name": "huile de canola",
       "qty": 1,
-      "unit": "cuillere a soupe"
+      "unit": "CAS",
+      "name": "huile de canola"
     },
     {
-      "name": "levure",
       "qty": 0.25,
-      "unit": "cuillere a cafe"
+      "unit": "CAC",
+      "name": "levure"
     },
     {
-      "name": "sucre",
       "qty": 2,
-      "unit": "cuilleres a soupe"
+      "unit": "CAS",
+      "name": "sucre"
     },
     {
-      "name": "lait d'amande",
       "qty": 3,
-      "unit": "cuillere a soupe"
+      "unit": "CAS",
+      "name": "lait d'amande"
     },
     {
-      "name": "farine",
       "qty": 2,
-      "unit": "cuillere a soupe"
+      "unit": "CAS",
+      "name": "farine"
     }
   ],
   "instructions": [

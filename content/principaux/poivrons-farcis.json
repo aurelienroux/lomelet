@@ -13,10 +13,13 @@
     "prep": 10,
     "total": 40
   },
-  "macros": {
-    "proteines": 26,
-    "glucides": 34,
-    "lipides": 26
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 26,
+      "glucides": 34,
+      "lipides": 26
+    }
   },
   "ingredients": [
     {
