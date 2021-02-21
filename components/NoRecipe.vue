@@ -6,8 +6,10 @@
 
 <style lang="scss" scoped>
 .no-recipes {
-  font-size: 2.4rem;
-  font-weight: 700;
+  border-radius: 1rem;
+  box-shadow: $color-neumorphism;
+  font-size: 2rem;
   line-height: 1.4;
+  margin: 2rem;
 }
 </style>

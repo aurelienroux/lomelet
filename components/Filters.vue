@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <div class="glob-container filters">
-      <label v-for="(checkbox, index) in categories" :key="index">
-        <input v-model="selectedCategories" type="checkbox" :value="checkbox" />
-        <span class="checkmark"></span>
-        {{ checkbox }}
-      </label>
-    </div>
+  <div class="glob-container filters">
+    <label v-for="(checkbox, index) in categories" :key="index">
+      <input v-model="selectedCategories" type="checkbox" :value="checkbox" />
+      <span class="checkmark"></span>
+      {{ checkbox }}
+    </label>
   </div>
 </template>
 
@@ -28,15 +26,17 @@ export default {
 
 <style lang="scss" scoped>
 .filters {
+  border-radius: 1rem;
+  box-shadow: $color-neumorphism;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 4rem;
+  margin: 2rem;
 }
 
 label {
   cursor: pointer;
   display: block;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin: 1rem 0;
   padding-left: 3.5rem;
   position: relative;

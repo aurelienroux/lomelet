@@ -57,7 +57,6 @@ a {
   h1 {
     color: $color-tangerine;
     font-size: 3.5rem;
-    margin-top: 1rem;
   }
 }
 

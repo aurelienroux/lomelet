@@ -14,9 +14,7 @@
       <button @click="toggleNav">
         <fa :icon="['fas', 'times']" />
       </button>
-      <nuxt-link class="link" to="/" @click.native="toggleNav">
-        Accueil
-      </nuxt-link>
+
       <nuxt-link class="link" to="/principaux" @click.native="toggleNav">
         principaux
       </nuxt-link>
