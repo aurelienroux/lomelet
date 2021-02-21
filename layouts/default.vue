@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="site-container">
     <Nav />
     <Nuxt />
     <Footer />
@@ -24,6 +24,11 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.site-container {
+  max-width: 100rem;
+  margin: 0 auto;
 }
 
 a {
