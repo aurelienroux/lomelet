@@ -42,7 +42,7 @@ nav {
 
   .container {
     background: salmon;
-    border: 1px solid;
+    border: 0.1rem solid;
     bottom: 0;
     left: 0;
     position: absolute;
@@ -54,7 +54,7 @@ nav {
   }
 
   .link {
-    border: 1px solid;
+    border: 0.1rem solid;
     display: block;
     font-size: 2rem;
     padding: $padding-s;

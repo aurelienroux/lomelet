@@ -30,13 +30,14 @@ export default {
 .filters {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding-top: 4rem;
 }
 
 label {
   cursor: pointer;
   display: block;
   font-size: 1.6rem;
-  margin-bottom: 2rem;
+  margin: 1rem 0;
   padding-left: 3.5rem;
   position: relative;
   text-transform: capitalize;

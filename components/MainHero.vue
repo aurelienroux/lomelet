@@ -49,7 +49,7 @@
 
   img {
     grid-column: 2/3;
-    max-width: 500px;
+    max-width: 50rem;
     width: 100%;
   }
 }
