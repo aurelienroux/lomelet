@@ -3,15 +3,11 @@
   "source": "lorem",
   "picture": "lorem",
   "qty": 1,
+  "time": null,
   "cat": {
     "thermomix": false,
     "vegetarien": false,
     "vegan": false
-  },
-  "times": {
-    "cooking": null,
-    "prep": null,
-    "total": null
   },
   "nutrition": {
     "calories": null,

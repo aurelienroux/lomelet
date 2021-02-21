@@ -3,15 +3,11 @@
   "source": "https://www.cookomix.com/recettes/chtiflette-thermomix/",
   "picture": "https://www.cookomix.com/wp-content/uploads/2020/10/chtiflette-thermomix-800x600.jpg",
   "qty": 4,
+  "time": "1h36",
   "cat": {
     "thermomix": true,
     "vegetarien": false,
     "vegan": false
-  },
-  "times": {
-    "cooking": 1,
-    "prep": 1,
-    "total": 5
   },
   "nutrition": {
     "calories": null,

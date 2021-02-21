@@ -3,15 +3,11 @@
   "source": "https://www.cookomix.com/recettes/gratin-dauphinois-thermomix/",
   "picture": "https://www.cookomix.com/wp-content/uploads/2016/02/gratin-dauphinois.jpg",
   "qty": 6,
+  "time": "1h05",
   "cat": {
     "thermomix": true,
     "vegetarien": true,
     "vegan": false
-  },
-  "times": {
-    "cooking": null,
-    "prep": 10,
-    "total": 55
   },
   "nutrition": {
     "calories": null,

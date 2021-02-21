@@ -3,15 +3,11 @@
   "source": "https://www.cookomix.com/recettes/gratin-torsades-merguez-thermomix/",
   "picture": "https://www.cookomix.com/wp-content/uploads/2020/10/gratin-torsades-merguez-thermomix-800x600.jpg",
   "qty": 4,
+  "time": "1h08",
   "cat": {
     "thermomix": true,
     "vegetarien": false,
     "vegan": false
-  },
-  "times": {
-    "cooking": null,
-    "prep": 10,
-    "total": 58
   },
   "nutrition": {
     "calories": 619,
