@@ -22,7 +22,7 @@
     color: $color-tangerine;
     font-size: 2.1rem;
     position: relative;
-    top: -1.5rem;
+    top: -1rem;
   }
 }
 </style>
