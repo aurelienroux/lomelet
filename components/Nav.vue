@@ -11,9 +11,11 @@
       </button>
     </div>
     <div class="container">
-      <button @click="toggleNav">
-        <fa class="fa" :icon="['fas', 'times']" />
-      </button>
+      <div class="close">
+        <button @click="toggleNav">
+          <fa class="fa" :icon="['fas', 'times']" />
+        </button>
+      </div>
       <nuxt-link class="link" to="/principaux" @click.native="toggleNav">
         principaux
       </nuxt-link>
@@ -61,6 +63,10 @@ nav {
     justify-content: space-between;
   }
 
+  .fa {
+    font-size: 2rem;
+  }
+
   .container {
     background: $color-bg;
     bottom: 0;
@@ -72,18 +78,22 @@ nav {
     transform: translateX(-100%);
     transition: 0.3s;
     z-index: 20;
-  }
 
-  .link {
-    border-radius: 1rem;
-    box-shadow: $color-neumorphism;
-    color: $color-black;
-    display: block;
-    font-size: 1.8rem;
-    font-weight: 700;
-    margin: 2rem 0;
-    padding: $padding-s;
-    text-transform: capitalize;
+    .close {
+      text-align: right;
+    }
+
+    .link {
+      border-radius: 1rem;
+      box-shadow: $color-neumorphism;
+      color: $color-black;
+      display: block;
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin: 2rem 0;
+      padding: $padding-s;
+      text-transform: capitalize;
+    }
   }
 }
 </style>
