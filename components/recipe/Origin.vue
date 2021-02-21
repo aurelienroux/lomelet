@@ -20,7 +20,6 @@ export default {
 <style lang="scss" scoped>
 .container {
   font-size: $font-size;
-  margin: 4rem 0;
   text-align: center;
 }
 

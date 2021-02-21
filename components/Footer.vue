@@ -14,7 +14,7 @@ footer {
   border-radius: 1rem;
   box-shadow: $color-neumorphism;
   font-size: 1.4rem;
-  margin: 2rem;
+  margin: 0 2rem 2rem;
   padding: 1rem;
   text-align: center;
 
