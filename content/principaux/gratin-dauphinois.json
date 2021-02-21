@@ -1,0 +1,51 @@
+{
+  "title": "gratin dauphinois",
+  "source": "https://www.cookomix.com/recettes/gratin-dauphinois-thermomix/",
+  "picture": "https://www.cookomix.com/wp-content/uploads/2016/02/gratin-dauphinois.jpg",
+  "qty": 6,
+  "cat": {
+    "thermomix": true,
+    "vegetarien": true,
+    "vegan": false
+  },
+  "times": {
+    "cooking": null,
+    "prep": 10,
+    "total": 55
+  },
+  "macros": {
+    "proteines": 5.8,
+    "glucides": 38.3,
+    "lipides": 30.1
+  },
+  "ingredients": [
+    {
+      "name": "creme fraiche epaisse",
+      "qty": 500,
+      "unit": "grammes"
+    },
+    {
+      "name": "patates",
+      "qty": 1200,
+      "unit": "grammes"
+    },
+    {
+      "name": "ail",
+      "qty": 1,
+      "unit": "gousse"
+    },
+    {
+      "name": "noix de muscade moulue",
+      "qty": 2,
+      "unit": "pincees"
+    }
+  ],
+  "instructions": [
+    "Mettre la crème fraîche épaisse dans le Thermomix.",
+    "Ajouter le fouet.",
+    "Ajouter les pommes de terre coupées en rondelles, la gousse d'ail, la cuillère à café de sel (à ajuster en fonction des goûts), le poivre et la noix de muscade moulue dans le Thermomix.",
+    "Préchauffer le four à 210°C.",
+    "Cuire 20 min a 100°C",
+    "Transvaser dans un plat à gratin et mettre dans le four pendant 25 min à 210°C."
+  ]
+}

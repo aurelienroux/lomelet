@@ -10,12 +10,13 @@
   },
   "times": {
     "cooking": 15,
-    "prep": 15
+    "prep": 15,
+    "total": 30
   },
   "macros": {
     "proteines": 24,
-    "lipides": 19,
-    "glucides": 21
+    "glucides": 21,
+    "lipides": 19
   },
   "ingredients": [
     {

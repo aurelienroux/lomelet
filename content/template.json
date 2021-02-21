@@ -10,12 +10,13 @@
   },
   "times": {
     "cooking": 1,
-    "prep": 1
+    "prep": 1,
+    "total": 5
   },
   "macros": {
     "proteines": 1,
-    "lipides": 1,
-    "glucides": 1
+    "glucides": 1,
+    "lipides": 1
   },
   "ingredients": [
     {
@@ -30,8 +31,8 @@
     }
   ],
   "instructions": [
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis et natus deserunt explicabo ducimus.",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis et natus deserunt explicabo ducimus.",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis et natus deserunt explicabo ducimus."
+    "Loremipsumdolorsitametconsecteturadipisicingelit.",
+    "Loremipsumdolorsitametconsecteturadipisicingelit.",
+    "Loremipsumdolorsitametconsecteturadipisicingelit."
   ]
 }
