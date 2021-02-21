@@ -60,4 +60,8 @@ a {
     margin-top: 1rem;
   }
 }
+
+.fa {
+  color: $color-black;
+}
 </style>

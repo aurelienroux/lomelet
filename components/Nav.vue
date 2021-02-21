@@ -1,8 +1,15 @@
 <template>
   <nav :class="{ open: openNav }">
-    <button @click="toggleNav">
-      <fa :icon="['fas', 'bars']" />
-    </button>
+    <div class="top">
+      <nuxt-link to="/" @click.native="toggleNav">
+        <button @click="toggleNav">
+          <fa class="fa" :icon="['fas', 'home']" />
+        </button>
+      </nuxt-link>
+      <button @click="toggleNav">
+        <fa class="fa" :icon="['fas', 'bars']" />
+      </button>
+    </div>
     <div class="container">
       <button @click="toggleNav">
         <fa :icon="['fas', 'times']" />
@@ -49,15 +56,19 @@ nav {
     border: none;
     box-shadow: $color-neumorphism;
     height: 4rem;
-    margin: 0 1rem;
     width: 4rem;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
   }
 
   .container {
     background: $color-bg;
     bottom: 0;
     left: 0;
-    padding: 1rem 2rem;
+    padding: 2rem;
     position: absolute;
     right: 0;
     top: 0;
