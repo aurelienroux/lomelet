@@ -1,10 +1,14 @@
 <template>
   <nav :class="{ open: openNav }">
-    <h2 @click="toggleNav">menu</h2>
+    <button @click="toggleNav">
+      <fa :icon="['fas', 'bars']" />
+    </button>
     <div class="container">
-      <h2 @click="toggleNav">close</h2>
+      <button @click="toggleNav">
+        <fa :icon="['fas', 'times']" />
+      </button>
       <nuxt-link class="link" to="/" @click.native="toggleNav">
-        home
+        Accueil
       </nuxt-link>
       <nuxt-link class="link" to="/principaux" @click.native="toggleNav">
         principaux
@@ -33,18 +37,27 @@ export default {
 
 <style lang="scss" scoped>
 nav {
-  background: $color-bg-gradient;
+  padding: 1rem 2rem;
 
   &.open .container {
     transform: translateX(0%);
     transition: 0.3s;
   }
 
+  button {
+    border-radius: 100%;
+    border: none;
+    box-shadow: $color-neumorphism;
+    height: 4rem;
+    margin: 1rem;
+    width: 4rem;
+  }
+
   .container {
-    background: salmon;
-    border: 0.1rem solid;
+    background: $color-bg;
     bottom: 0;
     left: 0;
+    padding: 1rem 2rem;
     position: absolute;
     right: 0;
     top: 0;
@@ -54,10 +67,15 @@ nav {
   }
 
   .link {
-    border: 0.1rem solid;
+    border-radius: 1rem;
+    box-shadow: $color-neumorphism;
+    color: $color-black;
     display: block;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 2rem 0;
     padding: $padding-s;
+    text-transform: capitalize;
   }
 }
 </style>

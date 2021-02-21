@@ -52,7 +52,7 @@ label {
   }
 
   .checkmark {
-    background-color: $color-gray;
+    background-color: #ddd;
     height: 2.5rem;
     left: 0;
     position: absolute;

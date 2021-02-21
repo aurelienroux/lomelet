@@ -12,6 +12,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
+  background: $color-bg;
   box-sizing: border-box;
   font-family: $montserrat;
   font-size: 10px;
