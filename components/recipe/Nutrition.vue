@@ -1,12 +1,18 @@
 <template>
   <div class="container">
     <h2 class="section-title">Par portion</h2>
-    <table>
+
+    <div v-if="this.nutrition.calories !== null">
+      <p>calories {{ nutrition.calories }}</p>
+      <p>les macros ne sont pas encore disponibles pour ce plat</p>
+    </div>
+
+    <table v-else>
       <tr>
         <td>calories</td>
-        <td>{{ totalCal }}</td>
+        <td class="value">{{ totalCal }}</td>
       </tr>
-      <tr v-for="(value, key) in macros" :key="key">
+      <tr v-for="(value, key) in nutrition.macros" :key="key">
         <td>{{ key }}</td>
         <td class="value">{{ value }}g</td>
       </tr>
@@ -17,14 +23,14 @@
 <script>
 export default {
   props: {
-    macros: {
+    nutrition: {
       type: Object,
       default: () => {},
     },
   },
   computed: {
     totalCal() {
-      const { proteines, lipides, glucides } = this.macros
+      const { proteines, lipides, glucides } = this.nutrition.macros
       return Math.floor(proteines * 4 + glucides * 4 + lipides * 9)
     },
   },

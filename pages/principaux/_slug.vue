@@ -2,7 +2,7 @@
   <div>
     <RecipeHero :title="recipe.title" :picture="recipe.picture" />
     <div class="glob-container">
-      <RecipeMacros :macros="recipe.macros" />
+      <RecipeNutrition :nutrition="recipe.nutrition" />
       <RecipeIngredients :ingredients="recipe.ingredients" :qty="recipe.qty" />
       <RecipeInstructions :instructions="recipe.instructions" />
       <RecipeOrigin :source="recipe.source" />
