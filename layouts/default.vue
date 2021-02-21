@@ -37,4 +37,27 @@ a {
   font-family: $playfair;
   margin-bottom: 1rem;
 }
+
+.hero {
+  font-family: $playfair;
+  padding: 0 1rem 2rem;
+  text-align: center;
+
+  img {
+    border-radius: 100%;
+    border: 0.7rem solid $color-tangerine;
+    border: none;
+    box-shadow: $color-neumorphism-large;
+    height: 20rem;
+    object-fit: cover;
+    object-position: center;
+    width: 20rem;
+  }
+
+  h1 {
+    color: $color-tangerine;
+    font-size: 3.5rem;
+    margin-top: 1rem;
+  }
+}
 </style>

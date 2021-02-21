@@ -8,22 +8,13 @@
 
 <style lang="scss" scoped>
 .hero {
-  font-family: $playfair;
-  padding: 0 1rem 2rem;
-  text-align: center;
-
   img {
-    border-radius: 100%;
-    border: 0.7rem solid $color-tangerine;
-    border: none;
-    box-shadow: $color-neumorphism-large;
-    height: 20rem;
-    object-fit: cover;
-    object-position: center;
-    width: 20rem;
+    height: 25rem;
+    width: 25rem;
   }
 
   h1 {
+    color: $color-black;
     font-size: 6rem;
   }
 
