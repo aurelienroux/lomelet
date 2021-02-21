@@ -51,7 +51,6 @@ export default {
   border-radius: 1rem;
   box-shadow: $color-neumorphism;
   display: flex;
-  margin-bottom: 2rem;
 
   .image {
     flex: 1;
