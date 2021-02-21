@@ -55,7 +55,7 @@ label {
   display: flex;
   font-size: 1.4rem;
   margin: 1.2rem 0;
-  padding-left: 3.5rem;
+  padding-left: 3rem;
   position: relative;
   text-transform: capitalize;
   user-select: none;
@@ -69,7 +69,7 @@ label {
   }
 
   .fa {
-    margin-left: 1rem;
+    margin-left: 0.4rem;
     position: relative;
     top: -2px;
   }
