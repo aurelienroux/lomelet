@@ -11,13 +11,17 @@
 
 <style lang="scss" scoped>
 footer {
-  font-size: 1.6rem;
+  background: $color-bg-gradient;
+  bottom: 0;
+  color: $color-white;
+  font-size: 1.2rem;
   padding: 0.7rem;
+  position: fixed;
   text-align: center;
   width: 100%;
 
   a {
-    color: $color-tangerine;
+    color: $color-white;
   }
 }
 </style>
