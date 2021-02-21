@@ -15,14 +15,14 @@
 
   h1 {
     color: $color-black;
-    font-size: 6rem;
+    font-size: 7rem;
   }
 
   h2 {
     color: $color-tangerine;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     position: relative;
-    top: -1.2rem;
+    top: -1.5rem;
   }
 }
 </style>

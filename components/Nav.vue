@@ -12,9 +12,8 @@
     </div>
     <div class="container">
       <button @click="toggleNav">
-        <fa :icon="['fas', 'times']" />
+        <fa class="fa" :icon="['fas', 'times']" />
       </button>
-
       <nuxt-link class="link" to="/principaux" @click.native="toggleNav">
         principaux
       </nuxt-link>
@@ -53,8 +52,8 @@ nav {
     border-radius: 100%;
     border: none;
     box-shadow: $color-neumorphism;
-    height: 4rem;
-    width: 4rem;
+    height: 5rem;
+    width: 5rem;
   }
 
   .top {

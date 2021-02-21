@@ -61,6 +61,7 @@ a {
 }
 
 .fa {
+  font-size: 2rem;
   color: $color-black;
 }
 </style>
