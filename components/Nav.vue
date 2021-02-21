@@ -37,7 +37,7 @@ export default {
 
 <style lang="scss" scoped>
 nav {
-  padding: 1rem 2rem;
+  padding: 2rem 2rem 0;
 
   &.open .container {
     transform: translateX(0%);
@@ -49,7 +49,7 @@ nav {
     border: none;
     box-shadow: $color-neumorphism;
     height: 4rem;
-    margin: 1rem;
+    margin: 0 1rem;
     width: 4rem;
   }
 

@@ -1,56 +1,34 @@
 <template>
   <div class="hero">
-    <div class="left">
-      <h1>Lomelet</h1>
-      <h2>Une collection de recettes faciles et pratiques</h2>
-    </div>
-    <div class="right">
-      <img src="~/assets/images/home-plate-cut.png" alt="" />
-    </div>
+    <img class="img" src="~/assets/images/desserts.jpg" alt="hero picture" />
+    <h1>Lomelet</h1>
+    <h2>recettes faciles et pratiques</h2>
   </div>
 </template>
 
 <style lang="scss" scoped>
 .hero {
-  background: $color-bg-gradient;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  max-height: 40rem;
-  min-height: 30rem;
-  overflow: hidden;
+  font-family: $playfair;
+  padding: 0 1rem 2rem;
+  text-align: center;
 
-  .left {
-    color: $color-white;
-    display: flex;
-    flex-direction: column;
-    font-family: $playfair;
-    font-size: 8rem;
-    grid-column: 1/3;
-    grid-row: 1/2;
-    justify-content: center;
-    padding: $padding-s;
-    z-index: 10;
+  .img {
+    border-radius: 100%;
+    border: 0.7rem solid $color-tangerine;
+    border: none;
+    box-shadow: $color-neumorphism-large;
+    width: 60%;
   }
 
   h1 {
-    font-size: 7.5rem;
+    font-size: 6rem;
   }
 
   h2 {
+    color: $color-tangerine;
     font-size: 1.8rem;
-  }
-
-  .right {
-    align-self: center;
-    grid-column: 2/4;
-    grid-row: 1/2;
-  }
-
-  img {
-    grid-column: 2/3;
-    max-width: 50rem;
-    width: 100%;
+    position: relative;
+    top: -1.2rem;
   }
 }
 </style>

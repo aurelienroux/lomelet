@@ -6,11 +6,21 @@ $playfair: 'Playfair Display', serif;
 $color-white: white;
 $color-black: black;
 $color-bg: #eee;
-$color-tangerine: #ea830e;
-$color-neumorphism: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
-  7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9,
-  inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9,
-  inset 0px 0px 0px 0px #0001;
+$color-neu-black: #0001;
+$color-neu-grey: #fff9;
+$color-tangerine: #d4770d;
+
+// Neumorphism
+$color-neumorphism: -7px -7px 20px 0px $color-neu-grey,
+  -4px -4px 5px 0px $color-neu-grey, 7px 7px 20px 0px $color-neu-black,
+  4px 4px 5px 0px $color-neu-black, inset 0px 0px 0px 0px $color-neu-grey,
+  inset 0px 0px 0px 0px $color-neu-black, inset 0px 0px 0px 0px $color-neu-grey,
+  inset 0px 0px 0px 0px $color-neu-black;
+$color-neumorphism-large: -7px -7px 10px 0px $color-neu-grey,
+  -4px -4px 5px 0px $color-neu-grey, 7px 7px 20px 0px $color-neu-black,
+  4px 4px 5px 0px $color-neu-black, inset 0px 0px 0px 0px $color-neu-grey,
+  inset 0px 0px 0px 0px $color-neu-black, inset 0px 0px 0px 0px $color-neu-grey,
+  inset 0px 0px 0px 0px $color-neu-black;
 $color-bg-gradient: linear-gradient(
   90deg,
   rgba(212, 124, 25, 1) 0%,
