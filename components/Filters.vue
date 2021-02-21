@@ -1,9 +1,27 @@
 <template>
   <div class="glob-container filters">
-    <label v-for="(checkbox, index) in categories" :key="index">
-      <input v-model="selectedCategories" type="checkbox" :value="checkbox" />
+    <label>
+      <input v-model="selectedCategories" type="checkbox" value="tout" />
       <span class="checkmark"></span>
-      {{ checkbox }}
+      Tout
+    </label>
+    <label>
+      <input v-model="selectedCategories" type="checkbox" value="thermomix" />
+      <span class="checkmark"></span>
+      Thermomix
+      <fa class="fa" :icon="['fas', 'robot']" />
+    </label>
+    <label>
+      <input v-model="selectedCategories" type="checkbox" value="vegetarien" />
+      <span class="checkmark"></span>
+      Vegetarien
+      <fa class="fa" :icon="['fas', 'carrot']" />
+    </label>
+    <label>
+      <input v-model="selectedCategories" type="checkbox" value="vegan" />
+      <span class="checkmark"></span>
+      Vegan
+      <fa class="fa" :icon="['fas', 'leaf']" />
     </label>
   </div>
 </template>
@@ -12,7 +30,6 @@
 export default {
   data() {
     return {
-      categories: ['tout', 'thermomix', 'vegetarien', 'vegan'],
       selectedCategories: ['tout'],
     }
   },
@@ -35,9 +52,9 @@ export default {
 
 label {
   cursor: pointer;
-  display: block;
+  display: flex;
   font-size: 1.4rem;
-  margin: 1rem 0;
+  margin: 1.2rem 0;
   padding-left: 3.5rem;
   position: relative;
   text-transform: capitalize;
@@ -51,8 +68,14 @@ label {
     width: 0;
   }
 
+  .fa {
+    margin-left: 1rem;
+    position: relative;
+    top: -2px;
+  }
+
   .checkmark {
-    background-color: #ddd;
+    background-color: lighten($color-tangerine, $amount: 35);
     height: 2.5rem;
     left: 0;
     position: absolute;

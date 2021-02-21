@@ -66,10 +66,13 @@ export default {
 
   .content {
     color: $color-black;
+    display: flex;
+    flex-direction: column;
     flex: 2;
     padding: 2rem;
 
     h2 {
+      flex: 1;
       font-size: 1.8rem;
       margin-bottom: 1rem;
     }
