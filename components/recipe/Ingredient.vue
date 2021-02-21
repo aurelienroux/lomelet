@@ -5,7 +5,7 @@
       <span v-else class="non-checked"></span>
     </div>
     <div>
-      <span class="numbers">{{ portion }}</span>
+      <span class="numbers">{{ portionFormat }}</span>
       <span v-if="ing.unit !== 'unite'">{{ ing.unit }}</span>
       {{ ing.name }}<span v-if="pluralIng">s</span>
     </div>
@@ -32,6 +32,10 @@ export default {
   computed: {
     pluralIng() {
       return this.ing.unit === 'unite' && this.portion > 1
+    },
+    portionFormat() {
+      const portion = this.portion
+      return portion - Math.floor(portion) !== 0 ? portion.toFixed(2) : portion
     },
   },
   methods: {
