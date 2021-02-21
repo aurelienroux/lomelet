@@ -2,7 +2,7 @@
   <div class="container">
     <h2 class="section-title">Par portion</h2>
 
-    <div v-if="this.nutrition.calories !== null">
+    <div v-if="nutrition.calories !== null">
       <p>calories {{ nutrition.calories }}</p>
       <p>les macros ne sont pas encore disponibles pour ce plat</p>
     </div>
