@@ -1,5 +1,6 @@
 <template>
   <div class="hero">
+    <img :src="imageUrl" alt="hero picture" />
     <h1>{{ title }}</h1>
   </div>
 </template>
@@ -11,24 +12,40 @@ export default {
       type: String,
       default: '',
     },
+    image: {
+      type: String,
+      default: '',
+    },
+  },
+  computed: {
+    imageUrl() {
+      return require(`~/assets/images/${this.image}.jpg`)
+    },
   },
 }
 </script>
 
 <style lang="scss" scoped>
 .hero {
-  align-items: center;
-  background: $color-bg-gradient;
-  display: flex;
-  justify-content: center;
-  padding: 3rem 1.5rem 6rem;
+  font-family: $playfair;
+  padding: 0 1rem 2rem;
+  text-align: center;
+
+  img {
+    border-radius: 100%;
+    border: 0.7rem solid $color-tangerine;
+    border: none;
+    box-shadow: $color-neumorphism-large;
+    height: 20rem;
+    object-fit: cover;
+    object-position: center;
+    width: 20rem;
+  }
 
   h1 {
-    color: $color-white;
-    font-family: $playfair;
-    font-size: 5rem;
-    text-align: center;
-    z-index: 10;
+    color: $color-tangerine;
+    font-size: 3.5rem;
+    margin-top: 1rem;
   }
 }
 </style>

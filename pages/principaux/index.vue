@@ -1,6 +1,6 @@
 <template>
   <div>
-    <CatHero title="Plats principaux" />
+    <CatHero title="Plats principaux" image="principaux" />
     <Filters @updateCategories="updateCategories" />
     <NoRecipe v-if="noRecipes" />
     <div v-else class="glob-container container">
