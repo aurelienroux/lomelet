@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="glob-container container">
     <h2 class="section-title">Instructions</h2>
     <ul>
       <li v-for="(instruction, index) in instructions" :key="'inst-' + index">
@@ -22,12 +22,15 @@ export default {
 
 <style lang="scss" scoped>
 .container {
+  border-radius: 1rem;
+  box-shadow: $color-neumorphism;
   font-size: $font-size;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 ul {
   padding-left: 2rem;
+  list-style-type: none;
 }
 
 li {

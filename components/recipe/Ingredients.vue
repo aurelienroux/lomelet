@@ -1,13 +1,17 @@
 <template>
-  <div class="container">
+  <div class="glob-container container">
     <h2 class="section-title">Ingredients</h2>
     <div class="control">
-      <button :disabled="portionQty < 2" @click="portionQty--">-</button>
+      <button :disabled="portionQty < 2" @click="portionQty--">
+        <fa class="fa" :icon="['fas', 'minus']" />
+      </button>
       <div class="text">
         <div class="numbers">{{ portionQty }}</div>
         <div>personne<span v-if="portionQty > 1">s</span></div>
       </div>
-      <button @click="portionQty++">+</button>
+      <button @click="portionQty++">
+        <fa class="fa" :icon="['fas', 'plus']" />
+      </button>
     </div>
     <RecipeIngredient
       v-for="(ing, index) in ingredients"
@@ -45,8 +49,10 @@ export default {
 
 <style lang="scss" scoped>
 .container {
+  border-radius: 1rem;
+  box-shadow: $color-neumorphism;
   font-size: $font-size;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .control {
@@ -68,16 +74,16 @@ export default {
 
   button {
     align-items: center;
-    background: $color-tangerine;
     border-radius: 100%;
+    box-shadow: $color-neumorphism;
     border: none;
     display: flex;
     height: 6rem;
     justify-content: center;
     width: 6rem;
 
-    &:disabled {
-      background: lighten($color-tangerine, $amount: 30);
+    &:disabled .fa {
+      color: lighten($color-black, $amount: 50);
     }
   }
 }

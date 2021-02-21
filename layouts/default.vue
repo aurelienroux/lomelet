@@ -16,6 +16,7 @@ html {
   box-sizing: border-box;
   font-family: $montserrat;
   font-size: 10px;
+  line-height: 1.4;
 }
 
 *,
@@ -40,7 +41,7 @@ a {
 
 .hero {
   font-family: $playfair;
-  padding: 0 1rem 2rem;
+  padding: 0 2rem 2rem;
   text-align: center;
 
   img {
@@ -57,6 +58,7 @@ a {
   h1 {
     color: $color-tangerine;
     font-size: 4rem;
+    line-height: 1.1;
   }
 }
 

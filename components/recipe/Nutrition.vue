@@ -1,12 +1,10 @@
 <template>
-  <div class="container">
+  <div class="glob-container container">
     <h2 class="section-title">Par portion</h2>
-
     <div v-if="nutrition.calories !== null">
-      <p>calories {{ nutrition.calories }}</p>
-      <p>les macros ne sont pas encore disponibles pour ce plat</p>
+      <p>Calories {{ nutrition.calories }}</p>
+      <p>Les macros ne sont pas encore disponibles pour ce plat</p>
     </div>
-
     <table v-else>
       <tr>
         <td>calories</td>
@@ -39,8 +37,18 @@ export default {
 
 <style lang="scss" scoped>
 .container {
+  border-radius: 1rem;
+  box-shadow: $color-neumorphism;
   font-size: $font-size;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+p {
+  margin: 1rem 0;
 }
 
 td {
@@ -48,6 +56,8 @@ td {
 }
 
 .value {
+  color: $color-tangerine;
+  font-weight: 700;
   text-align: right;
 }
 </style>
