@@ -60,6 +60,6 @@ export default {
 .container {
   display: grid;
   gap: $padding-s;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
 }
 </style>

@@ -1,7 +1,28 @@
 <template>
   <nuxt-link :to="recipeUrl" class="recipe-link">
-    <img :src="recipe.picture" :alt="recipe.title" loading="lazy" />
-    <h2>{{ recipe.title }}</h2>
+    <div v-if="recipe.picture" class="image">
+      <img :src="recipe.picture" :alt="recipe.title" loading="lazy" />
+    </div>
+    <div class="content">
+      <h2>{{ recipe.title }}</h2>
+      <div class="infos">
+        <div v-if="recipe.time" class="time">
+          <fa class="fa" :icon="['fas', 'clock']" />
+          {{ recipe.time }}
+        </div>
+        <fa
+          v-if="recipe.cat.thermomix"
+          class="fa fa-right"
+          :icon="['fas', 'robot']"
+        />
+        <fa
+          v-if="recipe.cat.vegetarien"
+          class="fa fa-right"
+          :icon="['fas', 'carrot']"
+        />
+        <fa v-if="recipe.cat.vegan" class="fa" :icon="['fas', 'leaf']" />
+      </div>
+    </div>
   </nuxt-link>
 </template>
 
@@ -28,18 +49,50 @@ export default {
 <style lang="scss" scoped>
 .recipe-link {
   border-radius: 1rem;
-  border: 0.1rem solid;
-  text-align: center;
+  box-shadow: $color-neumorphism;
+  display: flex;
+  margin-bottom: 2rem;
+
+  .image {
+    flex: 1;
+  }
 
   img {
-    border-radius: 1rem 1rem 0 0;
-    height: 15rem;
+    border-radius: 1rem 0 0 1rem;
+    height: 100%;
     object-fit: cover;
     width: 100%;
   }
 
-  h2 {
-    margin: 1rem;
+  .content {
+    color: $color-black;
+    flex: 2;
+    padding: 2rem;
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .infos {
+      display: flex;
+    }
+
+    .time {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      font-size: 1.4rem;
+      margin-right: 2rem;
+
+      .fa {
+        margin-bottom: 0.1rem;
+      }
+    }
+
+    .fa-right {
+      margin-right: 2rem;
+    }
   }
 }
 </style>
