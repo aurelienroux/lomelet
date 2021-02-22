@@ -70,8 +70,6 @@ label {
 
   .fa {
     margin-left: 0.4rem;
-    position: relative;
-    top: -2px;
   }
 
   .checkmark {

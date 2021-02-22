@@ -2,7 +2,9 @@
   <div class="glob-container container">
     <h2 class="section-title">Par portion</h2>
     <div v-if="nutrition.calories !== null">
-      <p>Calories {{ nutrition.calories }}</p>
+      <p>
+        Calories <span class="value">{{ nutrition.calories }}</span>
+      </p>
       <p>Les macros ne sont pas encore disponibles pour ce plat</p>
     </div>
     <table v-else>
@@ -41,10 +43,6 @@ export default {
   box-shadow: $color-neumorphism;
   font-size: $font-size;
   margin-bottom: 2rem;
-}
-
-h2 {
-  font-size: 2.2rem;
 }
 
 p {
