@@ -102,7 +102,6 @@ nav {
     .max-container {
       margin: 0 auto;
       max-width: 100rem;
-      padding: 0 2rem;
     }
 
     .close {
