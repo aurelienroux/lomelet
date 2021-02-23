@@ -1,9 +1,9 @@
 <template>
   <div class="ingredient" @click="toggleCheck">
-    <div>
-      <span v-if="checked" class="checked"></span>
-      <span v-else class="non-checked"></span>
-    </div>
+    <label>
+      <input type="checkbox" value="tout" />
+      <span class="checkmark"></span>
+    </label>
     <div>
       <span class="numbers">{{ portionFormat }}</span>
       <span v-if="ing.unit !== 'unite'">{{ ing.unit }}</span>
@@ -48,27 +48,67 @@ export default {
 
 <style lang="scss" scoped>
 .ingredient {
-  align-items: center;
   display: flex;
-  padding: 0.8rem 0;
-}
-
-.checked,
-.non-checked {
-  border-radius: 100%;
-  border: 0.2rem solid $color-black;
-  display: block;
-  height: 3rem;
-  margin-right: 2rem;
-  width: 3rem;
-}
-
-.checked {
-  background: $color-tangerine;
+  padding: 1rem 0;
 }
 
 .numbers {
   color: $color-tangerine;
   font-weight: 700;
+}
+
+label {
+  cursor: pointer;
+  font-size: 1.4rem;
+  padding-left: 4rem;
+  position: relative;
+  top: 0.1rem;
+  text-transform: capitalize;
+  user-select: none;
+
+  & input {
+    cursor: pointer;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    width: 0;
+  }
+
+  .fa {
+    margin-left: 0.4rem;
+  }
+
+  .checkmark {
+    background-color: lighten($color-tangerine, $amount: 35);
+    height: 2.5rem;
+    left: 0;
+    position: absolute;
+    top: -0.3rem;
+    width: 2.5rem;
+  }
+
+  input:checked ~ .checkmark {
+    background-color: $color-tangerine;
+  }
+
+  .checkmark:after {
+    content: '';
+    display: none;
+    position: absolute;
+  }
+
+  input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .checkmark:after {
+    border: solid $color-white;
+    border-width: 0 0.3rem 0.3rem 0;
+    height: 1rem;
+    left: 1rem;
+    top: 0.7rem;
+    transform: rotate(45deg);
+    width: 0.5rem;
+  }
 }
 </style>

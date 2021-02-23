@@ -96,13 +96,13 @@ label {
   }
 
   .checkmark:after {
-    left: 1rem;
-    top: 0.7rem;
-    width: 0.5rem;
-    height: 1rem;
     border: solid $color-white;
     border-width: 0 0.3rem 0.3rem 0;
+    height: 1rem;
+    left: 1rem;
+    top: 0.7rem;
     transform: rotate(45deg);
+    width: 0.5rem;
   }
 }
 </style>
