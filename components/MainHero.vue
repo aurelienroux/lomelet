@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <img src="~/assets/images/desserts.jpg" alt="hero picture" />
+    <img src="~/assets/images/home.jpg" alt="hero picture" />
     <h1>Lomelet</h1>
     <h2>recettes faciles et pratiques</h2>
   </div>

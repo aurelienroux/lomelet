@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <img v-if="picture" :src="picture" alt="dish picture" />
-    <img v-else src="~/assets/images/home-plate-cut.png" alt="dish picture" />
+    <img v-else src="~/assets/images/home.jpg" alt="dish picture" />
     <h1 class="title">{{ title }}</h1>
   </div>
 </template>
