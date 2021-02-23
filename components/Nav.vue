@@ -50,7 +50,7 @@
 export default {
   data() {
     return {
-      openNav: true,
+      openNav: false,
     }
   },
   head() {
