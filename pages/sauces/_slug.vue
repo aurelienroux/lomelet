@@ -1,6 +1,10 @@
 <template>
   <div>
-    <RecipeHero :title="recipe.title" :picture="recipe.picture" />
+    <RecipeHero
+      :title="recipe.title"
+      :picture="recipe.picture"
+      :cat="recipe.cat"
+    />
     <div class="glob-container">
       <RecipeNutrition :nutrition="recipe.nutrition" />
       <RecipeIngredients :ingredients="recipe.ingredients" :qty="recipe.qty" />
