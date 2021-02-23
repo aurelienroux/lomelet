@@ -11,17 +11,37 @@
       </button>
     </div>
     <div class="container">
-      <div class="close">
-        <button @click="toggleNav">
-          <fa class="fa" :icon="['fas', 'times']" />
-        </button>
+      <div class="max-container">
+        <div class="close">
+          <button @click="toggleNav">
+            <fa class="fa" :icon="['fas', 'times']" />
+          </button>
+        </div>
+        <nuxt-link class="link" to="/dejeuners" @click.native="toggleNav">
+          <img src="~/assets/images/dejeuners.jpg" alt="dejeuners" />
+          <p>Déjeuners</p>
+        </nuxt-link>
+        <nuxt-link class="link" to="/principaux" @click.native="toggleNav">
+          <img src="~/assets/images/principaux.jpg" alt="dejeuners" />
+          <p>plats principaux</p>
+        </nuxt-link>
+        <nuxt-link class="link" to="/a-cotes" @click.native="toggleNav">
+          <img src="~/assets/images/a-cotes.jpg" alt="dejeuners" />
+          <p>à cotés</p>
+        </nuxt-link>
+        <nuxt-link class="link" to="/desserts" @click.native="toggleNav">
+          <img src="~/assets/images/desserts.jpg" alt="dejeuners" />
+          <p>desserts</p>
+        </nuxt-link>
+        <nuxt-link class="link" to="/smoothies" @click.native="toggleNav">
+          <img src="~/assets/images/smoothies.jpg" alt="dejeuners" />
+          <p>Smoothies</p>
+        </nuxt-link>
+        <nuxt-link class="link" to="/sauces" @click.native="toggleNav">
+          <img src="~/assets/images/sauces.jpg" alt="dejeuners" />
+          <p>Sauces</p>
+        </nuxt-link>
       </div>
-      <nuxt-link class="link" to="/principaux" @click.native="toggleNav">
-        principaux
-      </nuxt-link>
-      <nuxt-link class="link" to="/desserts" @click.native="toggleNav">
-        desserts
-      </nuxt-link>
     </div>
   </nav>
 </template>
@@ -30,7 +50,7 @@
 export default {
   data() {
     return {
-      openNav: false,
+      openNav: true,
     }
   },
   methods: {
@@ -79,6 +99,12 @@ nav {
     transition: 0.3s;
     z-index: 20;
 
+    .max-container {
+      margin: 0 auto;
+      max-width: 100rem;
+      padding: 0 2rem;
+    }
+
     .close {
       text-align: right;
     }
@@ -87,12 +113,21 @@ nav {
       border-radius: 1rem;
       box-shadow: $color-neumorphism;
       color: $color-black;
-      display: block;
+      display: flex;
+      align-items: center;
       font-size: 1.8rem;
       font-weight: 700;
       margin: 2rem 0;
-      padding: $padding-s;
       text-transform: capitalize;
+
+      img {
+        max-width: 6rem;
+        border-radius: 1rem 0 0 1rem;
+      }
+
+      p {
+        padding: $padding-s;
+      }
     }
   }
 }
