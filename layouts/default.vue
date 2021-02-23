@@ -26,6 +26,11 @@ html {
   margin: 0;
 }
 
+body.body-fixed {
+  position: fixed;
+  width: 100vw;
+}
+
 .site-container {
   max-width: 100rem;
   margin: 0 auto;

@@ -53,6 +53,13 @@ export default {
       openNav: true,
     }
   },
+  head() {
+    return {
+      bodyAttrs: {
+        class: this.openNav ? 'body-fixed' : '',
+      },
+    }
+  },
   methods: {
     toggleNav() {
       this.openNav = !this.openNav
@@ -101,7 +108,10 @@ nav {
 
     .max-container {
       margin: 0 auto;
+      max-height: 100vh;
       max-width: 100rem;
+      overflow: scroll;
+      padding: 1rem 1.5rem;
     }
 
     .close {
