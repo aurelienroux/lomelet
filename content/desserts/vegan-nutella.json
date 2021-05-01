@@ -12,9 +12,9 @@
   "nutrition": {
     "calories": null,
     "macros": {
-      "proteines": null,
-      "glucides": null,
-      "lipides": null
+      "proteines": 1.7,
+      "glucides": 7.1,
+      "lipides": 6
     }
   },
   "ingredients": [
@@ -60,6 +60,7 @@
     }
   ],
   "instructions": [
+    "Gives 24 tbsp",
     "Preheat the oven to 350°F (180°C).",
     "Spread the hazelnuts onto a baking tray and bake for 10 - 12 minutes, until lightly golden and fragrant, stirring once halfway.",
     "When cooled enough to handle, pick up the hazelnuts a handful at a time and rub firmly between the palms of your hands so the skin falls off.",

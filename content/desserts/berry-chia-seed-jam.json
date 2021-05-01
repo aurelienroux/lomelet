@@ -1,0 +1,49 @@
+{
+  "title": "Berry Chia Seed Jam",
+  "source": "https://www.pickuplimes.com/recipe/easy-berry-chia-seed-jam-178",
+  "picture": "https://cdn.pickuplimes.com/cache/55/e8/55e84f85fd41ff620c2e94aa52a9bfe0.jpg",
+  "qty": 1,
+  "time": "30m",
+  "cat": {
+    "thermomix": false,
+    "vegetarien": true,
+    "vegan": true
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 0.5,
+      "glucides": 3,
+      "lipides": 0.4
+    }
+  },
+  "ingredients": [
+    {
+      "qty": 1,
+      "unit": "cup",
+      "name": "frozen raspberries"
+    },
+    {
+      "qty": 1,
+      "unit": "cup",
+      "name": "frozen blueberries"
+    },
+    {
+      "qty": 2,
+      "unit": "tbsp",
+      "name": "chia seeds"
+    },
+    {
+      "qty": 1,
+      "unit": "tbsp",
+      "name": "apple juine"
+    }
+  ],
+  "instructions": [
+    "gives 24 tbsp of jam",
+    "Place the berries in a medium bowl and microwave at 600W for about 3 minutes, stopping to stir every minute. Alternatively, thaw book the berries in a saucepan on medium heat.",
+    "When the berries are defrosted, some of its juice will naturally be released. Mash with a fork, allowing some chunks to remain.",
+    "Add the chia seeds and juice, and stir to combine. Let sit at room temperature for 30 minutes for the chia seeds to gel, stirring once halfway.",
+    "Transfer to your jar, and enjoy on toast, on oatmeal, in breakfast parfaits, and more!"
+  ]
+}
