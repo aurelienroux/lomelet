@@ -81,6 +81,7 @@ nav {
     border-radius: 100%;
     border: none;
     box-shadow: $color-neumorphism;
+    cursor: pointer;
     height: 5rem;
     width: 5rem;
   }
