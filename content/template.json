@@ -6,8 +6,8 @@
   "time": null,
   "cat": {
     "thermomix": false,
-    "vegetarien": false,
-    "vegan": false
+    "vegetarien": true,
+    "vegan": true
   },
   "nutrition": {
     "calories": null,

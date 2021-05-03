@@ -1,0 +1,83 @@
+{
+  "title": "Tofu General Tao",
+  "source": "https://www.youtube.com/watch?v=3DQTI_S3pRs&list=PLE5D4tNM0UqqFnfsECPO3C4xbjJ4ZIP--&index=3&ab_channel=LaCuisinedeJean-Philippe",
+  "picture": "",
+  "qty": 1,
+  "time": null,
+  "cat": {
+    "thermomix": false,
+    "vegetarien": true,
+    "vegan": true
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": null,
+      "glucides": null,
+      "lipides": null
+    }
+  },
+  "ingredients": [
+    {
+      "qty": 450,
+      "unit": "grammes",
+      "name": "tofu"
+    },
+    {
+      "qty": 0.25,
+      "unit": "tasse",
+      "name": "fécule de mais"
+    },
+    {
+      "qty": 3,
+      "unit": "CAC",
+      "name": "huile végétale"
+    },
+    {
+      "qty": 2,
+      "unit": "gousses",
+      "name": "d'ail"
+    },
+    {
+      "qty": 1,
+      "unit": "CAS",
+      "name": "gingembre"
+    },
+    {
+      "qty": 2,
+      "unit": "CAS",
+      "name": "sirop d'érable"
+    },
+    {
+      "qty": 2,
+      "unit": "CAS",
+      "name": "sauce soya"
+    },
+    {
+      "qty": 2,
+      "unit": "CAS",
+      "name": "ketchup"
+    },
+    {
+      "qty": 1,
+      "unit": "CAC",
+      "name": "sauce sriracha"
+    },
+    {
+      "qty": 3,
+      "unit": null,
+      "name": "oignons verts"
+    },
+    {
+      "qty": 0.75,
+      "unit": "tasse",
+      "name": "bouillon de légumes"
+    }
+  ],
+  "instructions": [
+    "Couper le tofu en dés et bien l’enrober de fécule de maïs.",
+    "Dans une casserole, faire chauffer l’huile. Ajouter les cubes de tofu et les faire revenir jusqu’a ce qu’ils soient bien dorés et croustillants. Ajouter de l’huile si nécessaire.",
+    "Incorporer l’ail, le gingembre, le sirop d’érable, la sauce soya, le ketchup, la sauce sriracha, les oignons verts et le bouillon de légumes.",
+    "Laisser réduire quelques minutes et servir."
+  ]
+}
