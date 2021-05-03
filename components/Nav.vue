@@ -17,10 +17,10 @@
             <fa class="fa" :icon="['fas', 'times']" />
           </button>
         </div>
-        <nuxt-link class="link" to="/dejeuners" @click.native="toggleNav">
+        <!-- <nuxt-link class="link" to="/dejeuners" @click.native="toggleNav">
           <img src="~/assets/images/dejeuners.jpg" alt="dejeuners" />
           <p>Déjeuners</p>
-        </nuxt-link>
+        </nuxt-link> -->
         <nuxt-link class="link" to="/principaux" @click.native="toggleNav">
           <img src="~/assets/images/principaux.jpg" alt="dejeuners" />
           <p>plats principaux</p>
@@ -28,6 +28,10 @@
         <nuxt-link class="link" to="/a-cotes" @click.native="toggleNav">
           <img src="~/assets/images/a-cotes.jpg" alt="dejeuners" />
           <p>à cotés</p>
+        </nuxt-link>
+        <nuxt-link class="link" to="/tofu" @click.native="toggleNav">
+          <img src="~/assets/images/tofu.jpg" alt="dejeuners" />
+          <p>tofu</p>
         </nuxt-link>
         <nuxt-link class="link" to="/desserts" @click.native="toggleNav">
           <img src="~/assets/images/desserts.jpg" alt="dejeuners" />
