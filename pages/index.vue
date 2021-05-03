@@ -5,8 +5,9 @@
       <!-- <CatLink category="dejeuners" /> -->
       <CatLink category="principaux" />
       <CatLink category="a-cotes" />
+      <CatLink category="tofu" />
       <CatLink category="desserts" />
-      <!-- <CatLink category="smoothies" /> -->
+      <CatLink category="smoothies" />
       <CatLink category="sauces" />
     </div>
   </div>
