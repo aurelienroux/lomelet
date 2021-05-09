@@ -1,0 +1,40 @@
+{
+  "title": "Choco Skyr yogourt",
+  "source": "",
+  "picture": "https://healthyrecipesblogs.com/wp-content/uploads/2020/03/chocolate-yogurt-recipe-square-500x500.jpg",
+  "qty": 1,
+  "time": "5m",
+  "cat": {
+    "thermomix": false,
+    "vegetarien": true,
+    "vegan": true
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 15.3,
+      "glucides": 12.2,
+      "lipides": 0.5 
+    }
+  },
+  "ingredients": [
+    {
+      "qty": 1,
+      "unit": "CAC",
+      "name": "sucre en poudre"
+    },
+    {
+      "qty": 1,
+      "unit": "CAS",
+      "name": "poudre de cacao"
+    },
+    {
+      "qty": 125,
+      "unit": "g",
+      "name": "yaourt Skyr"
+    }
+  ],
+  "instructions": [
+    "Mélangez les ingrédients. Rajoutez de l'eau pour changer la consistance du yaourt."
+  ]
+}
