@@ -2,7 +2,7 @@
   "title": "Tofu General Tao",
   "source": "https://www.youtube.com/watch?v=3DQTI_S3pRs&list=PLE5D4tNM0UqqFnfsECPO3C4xbjJ4ZIP--&index=3&ab_channel=LaCuisinedeJean-Philippe",
   "picture": "",
-  "qty": 1,
+  "qty": 4,
   "time": null,
   "cat": {
     "thermomix": false,
@@ -12,9 +12,9 @@
   "nutrition": {
     "calories": null,
     "macros": {
-      "proteines": null,
-      "glucides": null,
-      "lipides": null
+      "proteines": 9.9,
+      "glucides": 11.8,
+      "lipides": 12.2
     }
   },
   "ingredients": [
