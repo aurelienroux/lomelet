@@ -2,25 +2,25 @@
   "title": "Maple tahini",
   "source": "",
   "picture": "https://i.pinimg.com/originals/8a/a6/ba/8aa6ba6bedc33e8b6a330b572a63f7d5.jpg",
-  "qty": 4,
+  "qty": 3,
   "time": "5mn",
   "cat": {
     "thermomix": false,
-    "vegetarien": false,
+    "vegetarien": true,
     "vegan": true
   },
   "nutrition": {
     "calories": null,
     "macros": {
-      "proteines": 4.5,
-      "glucides": 6.5,
-      "lipides": 12.5
+      "proteines": 3.6,
+      "glucides": 11.9,
+      "lipides": 11
     }
   },
   "ingredients": [
     {
-      "qty": 100,
-      "unit": "grammes",
+      "qty": 4,
+      "unit": "CAS",
       "name": "tahini"
     },
     {
@@ -34,14 +34,19 @@
       "name": "eau"
     },
     {
-      "qty": 2,
+      "qty": 1,
+      "unit": "CAS",
+      "name": "moutarde au miel"
+    },
+    {
+      "qty": 1,
       "unit": "CAS",
       "name": "sirop d'érable"
     },
     {
       "qty": 1,
       "unit": "pointe",
-      "name": "cumin"
+      "name": "poudre d'oignon"
     },
     {
       "qty": 0.5,

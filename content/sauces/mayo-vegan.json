@@ -1,0 +1,55 @@
+{
+  "title": "Mayo Vegan",
+  "source": "https://www.youtube.com/watch?v=FtKHJ-b3IPE&list=PLE5D4tNM0Uqq2jGjN6ctiaa--FdHv4lpd&index=9&ab_channel=LloydLang",
+  "picture": "https://happyfoodhealthylife.com/wp-content/uploads/2018/06/VEGAN-MAYO-RECIPE-7.jpg",
+  "qty": 2,
+  "time": "5m",
+  "cat": {
+    "thermomix": false,
+    "vegetarien": true,
+    "vegan": true
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 5.6,
+      "glucides": 4.4,
+      "lipides": 2.3
+    }
+  },
+  "ingredients": [
+    {
+      "qty": 120,
+      "unit": "g",
+      "name": "tofu soyeux"
+    },
+    {
+      "qty": 0.5,
+      "unit": "CAS",
+      "name": "moutarde"
+    },
+    {
+      "qty": 1,
+      "unit": "CAS",
+      "name": "jus de citron"
+    },
+    {
+      "qty": 1,
+      "unit": "filet",
+      "name": "vinaigre de cidre"
+    },
+    {
+      "qty": 1,
+      "unit": "pincée",
+      "name": "curcuma"
+    },
+    {
+      "qty": 1,
+      "unit": "pincée",
+      "name": "sel"
+    }
+  ],
+  "instructions": [
+    "Dans un robot mixez tous les ingrédient jusqu'à obtenir une texture bien lisse et brillante."
+  ]
+}

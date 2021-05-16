@@ -1,0 +1,50 @@
+{
+  "title": "Mayo Light",
+  "source": "https://alice-esmeralda.com/une-journee-dans-mon-assiette-vegan-sain-sans-gluten",
+  "picture": "https://cassidyscraveablecreations.com/wp-content/uploads/2015/11/whole30-mayo-new.jpg",
+  "qty": 1,
+  "time": "5m",
+  "cat": {
+    "thermomix": false,
+    "vegetarien": true,
+    "vegan": true
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 9.6,
+      "glucides": 11.4,
+      "lipides": 4.2
+    }
+  },
+  "ingredients": [
+    {
+      "qty": 100,
+      "unit": "g",
+      "name": "tofu soyeux"
+    },
+    {
+      "qty": 1,
+      "unit": "CAS",
+      "name": "moutarde"
+    },
+    {
+      "qty": 1,
+      "unit": "CAS",
+      "name": "jus de citron"
+    },
+    {
+      "qty": 1,
+      "unit": "pincée",
+      "name": "cumin"
+    },
+    {
+      "qty": 1,
+      "unit": "pincée",
+      "name": "sel"
+    }
+  ],
+  "instructions": [
+    "Dans un robot mixez tous les ingrédient jusqu'à obtenir une texture bien lisse et brillante."
+  ]
+}
