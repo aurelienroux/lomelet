@@ -1,5 +1,9 @@
 <template>
-  <nuxt-link :to="'/' + category" class="cat-link">
+  <nuxt-link
+    :data-cy="'hp-nav-' + category"
+    :to="'/' + category"
+    class="cat-link"
+  >
     <img :src="imageUrl" :alt="category" />
     <h2>{{ category }}</h2>
   </nuxt-link>

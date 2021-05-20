@@ -2,18 +2,18 @@
   <nav :class="{ open: openNav }">
     <div class="top">
       <nuxt-link to="/" @click.native="toggleNav">
-        <button @click="toggleNav">
+        <button data-cy="nav-home" @click="toggleNav">
           <fa class="fa" :icon="['fas', 'home']" />
         </button>
       </nuxt-link>
-      <button @click="toggleNav">
+      <button data-cy="nav-menu" @click="toggleNav">
         <fa class="fa" :icon="['fas', 'bars']" />
       </button>
     </div>
     <div class="container">
       <div class="max-container">
         <div class="close">
-          <button @click="toggleNav">
+          <button data-cy="nav-close" @click="toggleNav">
             <fa class="fa" :icon="['fas', 'times']" />
           </button>
         </div>
@@ -21,28 +21,58 @@
           <img src="~/assets/images/dejeuners.jpg" alt="dejeuners" />
           <p>Déjeuners</p>
         </nuxt-link> -->
-        <nuxt-link class="link" to="/principaux" @click.native="toggleNav">
-          <img src="~/assets/images/principaux.jpg" alt="dejeuners" />
+        <nuxt-link
+          data-cy="nav-principaux"
+          class="link"
+          to="/principaux"
+          @click.native="toggleNav"
+        >
+          <img src="~/assets/images/principaux.jpg" alt="principaux" />
           <p>plats principaux</p>
         </nuxt-link>
-        <nuxt-link class="link" to="/a-cotes" @click.native="toggleNav">
-          <img src="~/assets/images/a-cotes.jpg" alt="dejeuners" />
+        <nuxt-link
+          data-cy="nav-a-cotes"
+          class="link"
+          to="/a-cotes"
+          @click.native="toggleNav"
+        >
+          <img src="~/assets/images/a-cotes.jpg" alt="a-cotes" />
           <p>à cotés</p>
         </nuxt-link>
-        <nuxt-link class="link" to="/tofu" @click.native="toggleNav">
-          <img src="~/assets/images/tofu.jpg" alt="dejeuners" />
+        <nuxt-link
+          data-cy="nav-tofu"
+          class="link"
+          to="/tofu"
+          @click.native="toggleNav"
+        >
+          <img src="~/assets/images/tofu.jpg" alt="tofu" />
           <p>tofu</p>
         </nuxt-link>
-        <nuxt-link class="link" to="/desserts" @click.native="toggleNav">
-          <img src="~/assets/images/desserts.jpg" alt="dejeuners" />
+        <nuxt-link
+          data-cy="nav-desserts"
+          class="link"
+          to="/desserts"
+          @click.native="toggleNav"
+        >
+          <img src="~/assets/images/desserts.jpg" alt="desserts" />
           <p>desserts</p>
         </nuxt-link>
-        <nuxt-link class="link" to="/smoothies" @click.native="toggleNav">
-          <img src="~/assets/images/smoothies.jpg" alt="dejeuners" />
+        <nuxt-link
+          data-cy="nav-smoothies"
+          class="link"
+          to="/smoothies"
+          @click.native="toggleNav"
+        >
+          <img src="~/assets/images/smoothies.jpg" alt="smoothies" />
           <p>Smoothies</p>
         </nuxt-link>
-        <nuxt-link class="link" to="/sauces" @click.native="toggleNav">
-          <img src="~/assets/images/sauces.jpg" alt="dejeuners" />
+        <nuxt-link
+          data-cy="nav-sauces"
+          class="link"
+          to="/sauces"
+          @click.native="toggleNav"
+        >
+          <img src="~/assets/images/sauces.jpg" alt="sauces" />
           <p>Sauces</p>
         </nuxt-link>
       </div>
