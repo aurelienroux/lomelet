@@ -4,7 +4,7 @@
       <input v-model="checked" type="checkbox" />
       <span class="checkmark"></span>
     </label>
-    <div :class="{ checked: checked }" @click="toggleCheck">
+    <div class="ing-text" :class="{ checked: checked }" @click="toggleCheck">
       <span class="numbers">
         {{ portionFormat }}
       </span>
@@ -114,6 +114,10 @@ label {
     transform: rotate(45deg);
     width: 0.5rem;
   }
+}
+
+.ing-text {
+  width: 100%;
 }
 
 .checked {
