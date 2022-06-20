@@ -5,7 +5,6 @@
   "qty": 6,
   "time": "1h05",
   "cat": {
-    "thermomix": true,
     "vegetarien": true,
     "vegan": false
   },
