@@ -4,7 +4,6 @@
     <img v-else src="~/assets/images/home.jpg" alt="dish picture" />
     <h1 class="title">{{ title }}</h1>
     <div class="cats">
-      <fa v-if="cat.thermomix" class="fa" :icon="['fas', 'robot']" />
       <fa v-if="cat.vegetarien" class="fa" :icon="['fas', 'carrot']" />
       <fa v-if="cat.vegan" class="fa" :icon="['fas', 'leaf']" />
     </div>

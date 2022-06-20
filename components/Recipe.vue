@@ -11,11 +11,6 @@
           <span>{{ recipe.time }}</span>
         </div>
         <fa
-          v-if="recipe.cat.thermomix"
-          class="fa fa-right"
-          :icon="['fas', 'robot']"
-        />
-        <fa
           v-if="recipe.cat.vegetarien"
           class="fa fa-right"
           :icon="['fas', 'carrot']"

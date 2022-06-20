@@ -6,12 +6,6 @@
       Tout
     </label>
     <label>
-      <input v-model="selectedCategories" type="checkbox" value="thermomix" />
-      <span class="checkmark"></span>
-      Thermomix
-      <fa class="fa" :icon="['fas', 'robot']" />
-    </label>
-    <label>
       <input v-model="selectedCategories" type="checkbox" value="vegetarien" />
       <span class="checkmark"></span>
       Vegetarien
