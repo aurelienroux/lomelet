@@ -1,12 +1,16 @@
 <template>
-  <div class="ingredient" @click="toggleCheck">
+  <div class="ingredient">
     <label>
-      <input type="checkbox" value="tout" />
+      <input v-model="checked" type="checkbox" />
       <span class="checkmark"></span>
     </label>
-    <div>
-      <span class="numbers">{{ portionFormat }}</span>
-      <span v-if="ing.unit !== 'unite'">{{ ing.unit }}</span>
+    <div :class="{ checked: checked }" @click="toggleCheck">
+      <span class="numbers">
+        {{ portionFormat }}
+      </span>
+      <span v-if="ing.unit !== 'unite'">
+        {{ ing.unit }}
+      </span>
       {{ ing.name }}<span v-if="pluralIng">s</span>
     </div>
   </div>
@@ -50,6 +54,7 @@ export default {
 .ingredient {
   display: flex;
   padding: 1rem 0;
+  cursor: pointer;
 }
 
 .numbers {
@@ -58,7 +63,6 @@ export default {
 }
 
 label {
-  cursor: pointer;
   font-size: 1.4rem;
   padding-left: 4rem;
   position: relative;
@@ -110,5 +114,9 @@ label {
     transform: rotate(45deg);
     width: 0.5rem;
   }
+}
+
+.checked {
+  text-decoration: line-through;
 }
 </style>
