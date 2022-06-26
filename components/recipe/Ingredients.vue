@@ -81,6 +81,7 @@ export default {
     height: 6rem;
     justify-content: center;
     width: 6rem;
+    cursor: pointer;
 
     &:disabled .fa {
       color: lighten($color-black, $amount: 50);
