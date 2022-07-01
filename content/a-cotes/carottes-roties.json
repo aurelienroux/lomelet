@@ -1,0 +1,45 @@
+{
+  "title": "Carottes Roties",
+  "source": "",
+  "picture": "https://imgs.search.brave.com/rhQAS2kyebqwlvNNm4X_fsNr29fHxb0hnEBer-cfq8Y/rs:fit:400:267:1/g:ce/aHR0cHM6Ly9yZWNl/dHRlLnN1cGVydG9p/bmV0dGUuY29tLzE1/MjQ5OS9tL2Nhcm90/dGVzLXJvdGllcy1h/LWwtb3JhbmdlLmpw/Zw",
+  "qty": 1,
+  "time": "30m",
+  "cat": {
+    "vegetarien": true,
+    "vegan": true
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 13,
+      "glucides": 52,
+      "lipides": 40
+    }
+  },
+  "ingredients": [
+    {
+      "qty": 250,
+      "unit": "g",
+      "name": "carottes"
+    },
+    {
+      "qty": 15,
+      "unit": "g",
+      "name": "huile olive"
+    },
+    {
+      "qty": 15,
+      "unit": "g",
+      "name": "parmesan"
+    }
+  ],
+  "instructions": [
+    "Faire bouillir une casserole d'eau salée",
+    "Couper les carottes en dés",
+    "Préchauffez le four à 450˚f avec la plaque à l'intérieur",
+    "Faire bouillir les carottes pendant 6 à 8 minutes",
+    "Égouter les carottes, poivrer, saler et ajouter l'huile",
+    "Cuire au four pendant 10 à 15 minutes",
+    "Rajoutez herbes fines ou parmesan"
+  ]
+}
