@@ -3,7 +3,7 @@
   "source": "https://mealprepmanual.com/honey-garlic-turkey-bowls/",
   "picture": "https://mealprepmanual.com/wp-content/uploads/2021/05/Honey-Garlic-Turkey-Bowls-WP.jpg",
   "qty": 5,
-  "time": 35,
+  "time": "35m",
   "cat": {
     "vegetarien": false,
     "vegan": false
@@ -17,6 +17,11 @@
     }
   },
   "ingredients": [
+    {
+      "qty": 800,
+      "unit": "g",
+      "name": "dinde"
+    },
     {
       "qty": 650,
       "unit": "g",
@@ -41,11 +46,6 @@
       "qty": 250,
       "unit": "g",
       "name": "haricots verts"
-    },
-    {
-      "qty": 800,
-      "unit": "g",
-      "name": "dinde"
     },
     {
       "qty": 1,
