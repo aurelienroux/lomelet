@@ -46,6 +46,7 @@ export default {
   border-radius: 1rem;
   box-shadow: $color-neumorphism;
   display: flex;
+  height: 15rem;
 
   .image {
     flex: 1;
@@ -67,7 +68,6 @@ export default {
     h2 {
       flex: 1;
       font-size: 1.8rem;
-      margin-bottom: 1rem;
       padding: 2rem;
     }
 
