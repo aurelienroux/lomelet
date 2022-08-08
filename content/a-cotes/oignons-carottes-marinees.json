@@ -1,0 +1,57 @@
+{
+  "title": "Oignons et Carottes Marinés",
+  "source": "https://www.youtube.com/watch?v=cLptNKd8OAg&list=WL&index=102",
+  "picture": "https://imgs.search.brave.com/yegZaH_vPwEYgy7JPeoCABtKckdlD2bEAmKCV4oeeUs/rs:fit:360:360:1/g:ce/aHR0cHM6Ly9oaWxk/YXNraXRjaGVuYmxv/Zy5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjAvMDUvc3Vt/YWMtb25pb24tNS0z/NjB4MzYwLmpwZw",
+  "qty": 1,
+  "time": null,
+  "cat": {
+    "vegetarien": true,
+    "vegan": true
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": null,
+      "glucides": null,
+      "lipides": null
+    }
+  },
+  "ingredients": [
+    {
+      "qty": 1,
+      "unit": "",
+      "name": "oignon rouge"
+    },
+    {
+      "qty": 1,
+      "unit": "sachet",
+      "name": "carottes"
+    },
+    {
+      "qty": 1,
+      "unit": "tsp",
+      "name": "sel"
+    },
+    {
+      "qty": 1,
+      "unit": "tsp",
+      "name": "sucre"
+    },
+    {
+      "qty": 1.5,
+      "unit": "cup",
+      "name": "eau"
+    },
+    {
+      "qty": 1.5,
+      "unit": "cup",
+      "name": "vinaigre"
+    }
+  ],
+  "instructions": [
+    "Mélangez tous les ingrédients dans un bocal ou pot masson",
+    "Ajoutez les légumes",
+    "Si manque de liquide, rajoutez de l'eau et du vinaigre en part égales",
+    "Laissez mariner au moins 12 heures"
+  ]
+}
