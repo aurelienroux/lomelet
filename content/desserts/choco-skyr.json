@@ -6,7 +6,7 @@
   "time": "5m",
   "cat": {
     "vegetarien": true,
-    "vegan": true
+    "vegan": false
   },
   "nutrition": {
     "calories": null,
