@@ -28,7 +28,7 @@
       "name": "oeufs"
     },
     {
-      "qty": 3,
+      "qty": 9,
       "unit": "tbsp",
       "name": "farine"
     },
@@ -44,6 +44,6 @@
     "Ajoutez les oeufs et battre",
     "Ajoutez la farine et la levure",
     "Rajoutez de la farine pour obtenir la consistence désirée",
-    "Cuire à la pôele"
+    "Cuire à la pôele à feu moyen"
   ]
 }
