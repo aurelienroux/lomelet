@@ -18,56 +18,6 @@
   },
   "ingredients": [
     {
-      "qty": 900,
-      "unit": "g",
-      "name": "poulet"
-    },
-    {
-      "qty": 180,
-      "unit": "g",
-      "name": "sauce tomate"
-    },
-    {
-      "qty": 1,
-      "unit": "tsp",
-      "name": "paprika"
-    },
-    {
-      "qty": 1,
-      "unit": "tsp",
-      "name": "poudre ail"
-    },
-    {
-      "qty": 1,
-      "unit": "tsp",
-      "name": "chili powder"
-    },
-    {
-      "qty": 1,
-      "unit": "tsp",
-      "name": "cumin"
-    },
-    {
-      "qty": 1,
-      "unit": "tbsp",
-      "name": "huile d'olive"
-    },
-    {
-      "qty": 560,
-      "unit": "g",
-      "name": "chou rouge"
-    },
-    {
-      "qty": 500,
-      "unit": "g",
-      "name": "poivrons"
-    },
-    {
-      "qty": 1,
-      "unit": "tsp",
-      "name": "poudre d'ail"
-    },
-    {
       "qty": 560,
       "unit": "g",
       "name": "riz"
@@ -88,6 +38,51 @@
       "name": "tomate"
     },
     {
+      "qty": 1,
+      "unit": "tbsp",
+      "name": "huile d'olive"
+    },
+    {
+      "qty": 900,
+      "unit": "g",
+      "name": "poulet"
+    },
+    {
+      "qty": 500,
+      "unit": "g",
+      "name": "poivrons"
+    },
+    {
+      "qty": 560,
+      "unit": "g",
+      "name": "chou rouge"
+    },
+    {
+      "qty": 180,
+      "unit": "g",
+      "name": "sauce tomate"
+    },
+    {
+      "qty": 1,
+      "unit": "tsp",
+      "name": "paprika"
+    },
+    {
+      "qty": 1,
+      "unit": "tsp",
+      "name": "chili powder"
+    },
+    {
+      "qty": 1,
+      "unit": "tsp",
+      "name": "cumin"
+    },
+    {
+      "qty": 1,
+      "unit": "tsp",
+      "name": "poudre d'ail"
+    },
+    {
       "qty": 125,
       "unit": "g",
       "name": "salsa"
@@ -99,6 +94,6 @@
     "Faire cuire les poivrons et le chou avec la poudre d'ail et assaisonner",
     "Cuire le poulet",
     "Avant la cuisson totale, rajouter la sauce tomate, le paprika, le chili, le cumin, la poudre d'ail et assaisonner",
-    "Assemblet et rajouter un ramequin de salsa dans chaque plat"
+    "Assembler et rajouter un ramequin de salsa dans chaque plat"
   ]
 }
