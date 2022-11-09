@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import { hasNutritionData, getCaloriesTotal } from '~/helpers/calories'
+import { hasNutritionData, getCaloriesTotal } from '~/helpers/nutrition'
 
 export default {
   props: {
