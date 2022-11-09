@@ -1,5 +1,5 @@
 <template>
-  <div v-if="displayComp" class="glob-container container">
+  <div v-if="displayComponent" class="glob-container container">
     <h2 class="section-title">Par portion</h2>
     <div v-if="nutrition.calories !== null">
       <p>
@@ -21,6 +21,8 @@
 </template>
 
 <script>
+import { hasNutritionData, getCaloriesTotal } from '~/helpers/calories'
+
 export default {
   props: {
     nutrition: {
@@ -29,17 +31,11 @@ export default {
     },
   },
   computed: {
-    displayComp() {
-      return (
-        this.nutrition.calories !== null ||
-        (this.nutrition.macros.proteines !== null &&
-          this.nutrition.macros.lipides !== null &&
-          this.nutrition.macros.glucides !== null)
-      )
+    displayComponent() {
+      return hasNutritionData(this.nutrition)
     },
     totalCal() {
-      const { proteines, lipides, glucides } = this.nutrition.macros
-      return Math.floor(proteines * 4 + glucides * 4 + lipides * 9)
+      return getCaloriesTotal(this.nutrition)
     },
   },
 }

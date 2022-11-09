@@ -6,6 +6,7 @@
     <div class="content">
       <h2>{{ recipe.title }}</h2>
       <div class="infos">
+        <div v-if="displayCalories" class="calories">{{ totalCal }} cals</div>
         <div v-if="recipe.time" class="time">
           <fa class="fa" :icon="['fas', 'clock']" />
           <span>{{ recipe.time }}</span>
@@ -22,6 +23,8 @@
 </template>
 
 <script>
+import { hasNutritionData, getCaloriesTotal } from '~/helpers/nutrition'
+
 export default {
   props: {
     category: {
@@ -36,6 +39,12 @@ export default {
   computed: {
     recipeUrl() {
       return `${this.category}/${this.recipe.slug}`
+    },
+    displayCalories() {
+      return hasNutritionData(this.recipe.nutrition)
+    },
+    totalCal() {
+      return getCaloriesTotal(this.recipe.nutrition)
     },
   },
 }
@@ -85,20 +94,20 @@ export default {
       }
     }
 
+    .calories,
+    .time,
+    .fa-right {
+      margin-right: 1.5rem;
+    }
+
     .time {
-      align-items: center;
       display: flex;
-      margin-right: 1.6rem;
       position: relative;
       top: 0.1rem;
 
       .fa {
         margin-right: 0.3rem;
       }
-    }
-
-    .fa-right {
-      margin-right: 1.6rem;
     }
   }
 }
