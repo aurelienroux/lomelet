@@ -1,0 +1,47 @@
+{
+  "title": "",
+  "source": "",
+  "picture": "",
+  "qty": 1,
+  "time": null,
+  "cat": {
+    "vegetarien": true,
+    "vegan": true
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": null,
+      "glucides": null,
+      "lipides": null
+    }
+  },
+  "ingredients": [
+    {
+      "sectionTitle": "title",
+      "sectionIngredients": [
+        {
+          "qty": 1,
+          "unit": "",
+          "name": ""
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "name": ""
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "sectionTitle": "title",
+      "sectionInstructions": [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum"
+      ]
+    }
+  ]
+}

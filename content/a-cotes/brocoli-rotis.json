@@ -1,0 +1,63 @@
+{
+  "title": "Brocolis Rotis",
+  "source": "https://www.youtube.com/watch?v=zKEwA__rOHk&list=WL&index=96",
+  "picture": "https://imgs.search.brave.com/h96HzZ6zJAdu9FIy2h9YzddV7fOk82XIaC8BzW-AvJU/rs:fit:240:192:1/g:ce/aHR0cHM6Ly9zdGF0/aWMuY3Vpc2luZWF6/LmNvbS8yNDB4MTky/L2kxNDEwOTQtYnJv/Y29saXMtcm90aXMu/anBlZw",
+  "qty": 1,
+  "time": "50m",
+  "cat": {
+    "vegetarien": true,
+    "vegan": true
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 11,
+      "glucides": 19,
+      "lipides": 20
+    }
+  },
+  "ingredients": [
+    {
+      "sectionTitle": "general",
+      "sectionIngredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "name": "brocolis surgelés"
+        },
+        {
+          "qty": 15,
+          "unit": "g",
+          "name": "huile olive"
+        },
+        {
+          "qty": 0.5,
+          "unit": "gousse",
+          "name": "ail"
+        },
+        {
+          "qty": 15,
+          "unit": "g",
+          "name": "parmesan"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "sectionTitle": "prepa",
+      "sectionInstructions": [
+        "Préchauffer le four en convection à 400˚f avec la plaque à l'intérieur"
+      ]
+    },
+    {
+      "sectionTitle": "general",
+      "sectionInstructions": [
+        "Dans un saladier, ajouter les brocolis surgelés, saler, poivrer et ajouter l'huile",
+        "Rajouter une 1/2 gousse d'ail sur la plaque",
+        "Faire cuire 25 minutes ou plus",
+        "Ajouter des herbes ou du parmesan pour relever"
+      ]
+    }
+  ]
+}
