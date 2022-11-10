@@ -18,6 +18,26 @@
   },
   "ingredients": [
     {
+      "sectionTitle": "riz",
+      "sectionIngredients": [
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "name": "chili powder"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "name": "paprika"
+        },
+        {
+          "qty": 60,
+          "unit": "g",
+          "name": "tomate"
+        }
+      ]
+    },
+    {
       "qty": 560,
       "unit": "g",
       "name": "riz"
@@ -89,6 +109,13 @@
     }
   ],
   "instructions": [
+    {
+      "sectionTitle": "riz",
+      "sectionIngredients": [
+        "Faire cuire le riz",
+        "Une fois cuit, rajouter la tomate, 1 cuillère d'huile, 1 cuillère de chili et de paprika"
+      ]
+    },
     "Faire cuire le riz",
     "Une fois cuit, rajouter la tomate, 1 cuillère d'huile, 1 cuillère de chili et de paprika",
     "Faire cuire les poivrons et le chou avec la poudre d'ail et assaisonner",
