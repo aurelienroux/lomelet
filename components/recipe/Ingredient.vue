@@ -53,7 +53,8 @@ export default {
 <style lang="scss" scoped>
 .ingredient {
   display: flex;
-  padding: 1rem 0;
+  padding: 0.7rem 0;
+  font-size: 1.4rem;
   cursor: pointer;
 }
 

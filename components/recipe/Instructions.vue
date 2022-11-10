@@ -1,11 +1,19 @@
 <template>
   <div class="glob-container container">
     <h2 class="section-title">Instructions</h2>
-    <ul>
-      <li v-for="(instruction, index) in instructions" :key="'inst-' + index">
-        {{ instruction }}
-      </li>
-    </ul>
+
+    <div v-for="instruction in instructions" :key="instruction.sectionTitle">
+      <h3 class="subsection-title">{{ instruction.sectionTitle }}</h3>
+      <ul>
+        <li
+          v-for="(inst, index) in instruction.sectionInstructions"
+          :key="'inst-' + index"
+          class="ingredient"
+        >
+          {{ inst }}
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -33,9 +41,10 @@ ul {
   list-style-type: none;
 }
 
-li {
+.ingredient {
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.4rem;
 
   &:before {
     background: $color-tangerine;

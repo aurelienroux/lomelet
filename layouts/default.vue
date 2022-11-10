@@ -49,6 +49,13 @@ a {
   margin-bottom: 1rem;
 }
 
+.subsection-title {
+  font-family: $playfair;
+  text-transform: capitalize;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .hero {
   font-family: $playfair;
   padding: 0 2rem 2rem;

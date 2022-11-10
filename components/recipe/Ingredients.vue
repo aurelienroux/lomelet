@@ -13,12 +13,15 @@
         <fa class="fa" :icon="['fas', 'plus']" />
       </button>
     </div>
-    <RecipeIngredient
-      v-for="(ing, index) in ingredients"
-      :key="index"
-      :ing="ing"
-      :portion="portionCalc(ing)"
-    />
+    <div v-for="ingredient in ingredients" :key="ingredient.sectionTitle">
+      <h3 class="subsection-title">{{ ingredient.sectionTitle }}</h3>
+      <RecipeIngredient
+        v-for="(ing, index) in ingredient.sectionIngredients"
+        :key="index"
+        :ing="ing"
+        :portion="portionCalc(ing)"
+      />
+    </div>
   </div>
 </template>
 
