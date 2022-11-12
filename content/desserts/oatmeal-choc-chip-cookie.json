@@ -18,7 +18,7 @@
   },
   "ingredients": [
     {
-      "sectionTitle": "General",
+      "sectionTitle": "",
       "sectionIngredients": [
         {
           "qty": 2,
@@ -50,7 +50,7 @@
   ],
   "instructions": [
     {
-      "sectionTitle": "general",
+      "sectionTitle": "",
       "sectionInstructions": [
         "Mix all ingredients together",
         "Bake at 350°F for 25-30 minutes",

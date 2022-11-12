@@ -1,0 +1,113 @@
+{
+  "title": "Mexican Chicken and Rice",
+  "source": "https://www.instagram.com/p/Ce86_ltj4u-/",
+  "picture": "https://www.waitrose.com/content/dam/waitrose/recipes/images/p/mexicanrice-recipe.jpg/_jcr_content/renditions/cq5dam.thumbnail.400.400.png",
+  "qty": 2,
+  "time": "40m",
+  "cat": {
+    "vegetarien": false,
+    "vegan": false
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 55,
+      "glucides": 55,
+      "lipides": 4
+    }
+  },
+  "ingredients": [
+    {
+      "sectionTitle": "chicken",
+      "sectionIngredients": [
+        {
+          "qty": 300,
+          "unit": "grams",
+          "name": "chicken"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "name": "garlic powder"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "name": "paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "name": "oregano"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "name": "cumin"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "name": "chili powder"
+        },
+        {
+          "qty": 0.5,
+          "unit": "",
+          "name": "lime juice"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "sides",
+      "sectionIngredients": [
+        {
+          "qty": 1,
+          "unit": "",
+          "name": "onion"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "name": "red peppers"
+        },
+        {
+          "qty": 60,
+          "unit": "g",
+          "name": "black beans"
+        },
+        {
+          "qty": 110,
+          "unit": "g",
+          "name": "uncooked rice"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "name": "chopped tomatoes"
+        },
+        {
+          "qty": 0.75,
+          "unit": "cup",
+          "name": "water"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "sectionTitle": "general",
+      "sectionInstructions": [
+        "Use cooking spray or olive oil",
+        "Season and cook chicken for 3 mins",
+        "Add the onion chopped, red bell pepper, black beans",
+        "Add washed uncooked basmati rice",
+        "Season again 1 tsp of each salt, oregano, cumin, garlic powder and 1/2 tsp chilli powder",
+        "Toast the rice for a minute",
+        "Add chopped tomatoes and water",
+        "Bring to a boil then lower heat and cover for 12 mins",
+        "Check halfway and mix so the rice doesn’t stick to the bottom",
+        "Garnish with coriander and green onion and some lime juice"
+      ]
+    }
+  ]
+}

@@ -18,7 +18,7 @@
   },
   "ingredients": [
     {
-      "sectionTitle": "general",
+      "sectionTitle": "",
       "sectionIngredients": [
         {
           "qty": 1,
@@ -40,7 +40,7 @@
   ],
   "instructions": [
     {
-      "sectionTitle": "general",
+      "sectionTitle": "",
       "sectionInstructions": [
         "Option: remplacez le sucre par du Stevia",
         "Option: remplacez le cacao par de la poudre de protéine",

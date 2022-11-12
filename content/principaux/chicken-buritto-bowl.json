@@ -18,7 +18,7 @@
   },
   "ingredients": [
     {
-      "sectionTitle": "general",
+      "sectionTitle": "four",
       "sectionIngredients": [
         {
           "qty": 130,
@@ -31,26 +31,15 @@
           "name": "huile d'olive"
         },
         {
-          "qty": 130,
-          "unit": "g",
-          "name": "riz"
-        },
-        {
           "qty": 1,
           "unit": "tbsp",
-          "name": "haricots noirs"
+          "name": "taco seasoning"
         },
-
         {
-          "qty": 30,
-          "unit": "g",
-          "name": "fromage rapé"
-        }
-      ]
-    },
-    {
-      "sectionTitle": "legumes",
-      "sectionIngredients": [
+          "qty": 2,
+          "unit": "tbsp",
+          "name": "salsa"
+        },
         {
           "qty": 1,
           "unit": "",
@@ -60,6 +49,26 @@
           "qty": 1,
           "unit": "",
           "name": "oignon"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "legumes",
+      "sectionIngredients": [
+        {
+          "qty": 130,
+          "unit": "g",
+          "name": "riz"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "name": "haricots noirs"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "name": "fromage rapé"
         },
         {
           "qty": 1,
@@ -78,16 +87,6 @@
         },
         {
           "qty": 1,
-          "unit": "tbsp",
-          "name": "taco seasoning"
-        },
-        {
-          "qty": 2,
-          "unit": "tbsp",
-          "name": "salsa"
-        },
-        {
-          "qty": 1,
           "unit": "",
           "name": "lime"
         }
@@ -103,11 +102,11 @@
       ]
     },
     {
-      "sectionTitle": "preparation",
+      "sectionTitle": "cuisson",
       "sectionInstructions": [
         "Placer le poulet, les poivrons et l'oignon sur la plaque",
         "Recouvrir d'huile",
-        "Assaisonner le poulet avec les épices",
+        "Assaisonner le poulet avec les épices et les legumes avec sel et poivre",
         "Placer la salsa sur le poulet",
         "Faire cuire pendant 25 minutes"
       ]
@@ -116,8 +115,8 @@
       "sectionTitle": "assemblage",
       "sectionInstructions": [
         "Couper le poulet refroidi en lamelles",
-        "Placer le riz et les autres ingrédients",
-        "Recouvrir du poulet salsa"
+        "Placer le riz, les haricots noirs et le mais",
+        "Recouvrir du poulet salsa et du fromage"
       ]
     }
   ]
