@@ -8,7 +8,7 @@
     <label>
       <input v-model="selectedCategories" type="checkbox" value="vegetarien" />
       <span class="checkmark"></span>
-      Vegetarien
+      Vege
       <fa class="fa" :icon="['fas', 'carrot']" />
     </label>
     <label>
@@ -40,7 +40,7 @@ export default {
   border-radius: 1rem;
   box-shadow: $color-neumorphism;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin: 2rem;
 }
 
