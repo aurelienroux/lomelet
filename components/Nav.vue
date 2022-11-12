@@ -40,15 +40,6 @@
           <p>à cotés</p>
         </nuxt-link>
         <nuxt-link
-          data-cy="nav-meal-prep"
-          class="link"
-          to="/meal-prep"
-          @click.native="toggleNav"
-        >
-          <img src="~/assets/images/meal-prep.jpg" alt="meal-prep" />
-          <p>Meal prep</p>
-        </nuxt-link>
-        <nuxt-link
           data-cy="nav-tofu"
           class="link"
           to="/tofu"

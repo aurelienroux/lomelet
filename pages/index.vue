@@ -4,7 +4,6 @@
     <div class="glob-container container">
       <CatLink category="principaux" />
       <CatLink category="a-cotes" />
-      <CatLink category="meal-prep" />
       <CatLink category="tofu" />
       <CatLink category="desserts" />
       <CatLink category="smoothies" />
