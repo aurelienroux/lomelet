@@ -14,7 +14,9 @@
       </button>
     </div>
     <div v-for="ingredient in ingredients" :key="ingredient.sectionTitle">
-      <h3 class="subsection-title">{{ ingredient.sectionTitle }}</h3>
+      <h3 v-if="!!ingredient.sectionTitle" class="subsection-title test">
+        {{ ingredient.sectionTitle }}
+      </h3>
       <RecipeIngredient
         v-for="(ing, index) in ingredient.sectionIngredients"
         :key="index"

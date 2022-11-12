@@ -3,7 +3,9 @@
     <h2 class="section-title">Instructions</h2>
 
     <div v-for="instruction in instructions" :key="instruction.sectionTitle">
-      <h3 class="subsection-title">{{ instruction.sectionTitle }}</h3>
+      <h3 v-if="!!instruction.sectionTitle" class="subsection-title">
+        {{ instruction.sectionTitle }}
+      </h3>
       <ul>
         <li
           v-for="(inst, index) in instruction.sectionInstructions"
