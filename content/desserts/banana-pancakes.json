@@ -1,0 +1,62 @@
+{
+  "title": "Bananas pancake",
+  "source": "https://www.youtube.com/watch?v=cPJHRvgJ0YA&t=206s",
+  "picture": "https://imgs.search.brave.com/rH10nPXzJp7WlhIZ3JlSx3SpHmfzih2HOdTw5H-yxq8/rs:fit:300:300:1/g:ce/aHR0cHM6Ly9iYWtp/bmdtaXNjaGllZi5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTgvMDkvZWFzeS1i/YW5hbmEtcGFuY2Fr/ZXMtZm9yLXR3by1p/bWFnZS1zcXVhcmUt/MzAweDMwMC5qcGc",
+  "qty": 3,
+  "time": "25m",
+  "cat": {
+    "vegetarien": true,
+    "vegan": false
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 10,
+      "glucides": 34,
+      "lipides": 7
+    }
+  },
+  "ingredients": [
+    {
+      "sectionTitle": "general",
+      "sectionIngredients": [
+        {
+          "qty": 3,
+          "unit": "unite",
+          "name": "banane"
+        },
+        {
+          "qty": 3,
+          "unit": "",
+          "name": "oeuf"
+        },
+        {
+          "qty": 9,
+          "unit": "tbsp",
+          "name": "farine"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "name": "levure"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "sectionTitle": "prepa",
+      "sectionInstructions": ["Préchauffez une pôele"]
+    },
+    {
+      "sectionTitle": "general",
+      "sectionInstructions": [
+        "Écrasez et pilez les bananes dans un saladier",
+        "Ajoutez les oeufs et battre",
+        "Ajoutez la farine et la levure",
+        "Rajoutez de la farine pour obtenir la consistence désirée",
+        "Cuire à la pôele à feu moyen"
+      ]
+    }
+  ]
+}

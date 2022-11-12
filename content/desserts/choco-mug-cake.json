@@ -1,0 +1,81 @@
+{
+  "title": "Chocolat mug cake",
+  "source": "https://www.lacuisinedejeanphilippe.com/recipe/gateau-mug-cake-au-chocolat/",
+  "picture": "https://www.lacuisinedejeanphilippe.com/wp-content/uploads//2020/04/IMG_5276-scaled.jpg",
+  "qty": 1,
+  "time": "5m",
+  "cat": {
+    "vegetarien": true,
+    "vegan": true
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 4.2,
+      "glucides": 46.7,
+      "lipides": 15.3
+    }
+  },
+  "ingredients": [
+    {
+      "sectionTitle": "poudre",
+      "sectionIngredients": [
+        {
+          "qty": 2,
+          "unit": "CAS",
+          "name": "farine"
+        },
+        {
+          "qty": 2,
+          "unit": "CAS",
+          "name": "sucre"
+        },
+        {
+          "qty": 2,
+          "unit": "CAS",
+          "name": "poudre de cacao"
+        },
+        {
+          "qty": 0.25,
+          "unit": "CAC",
+          "name": "levure"
+        },
+        {
+          "qty": 1,
+          "unit": "pincée",
+          "name": "sel"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "liquide",
+      "sectionIngredients": [
+        {
+          "qty": 1,
+          "unit": "CAS",
+          "name": "huile de canola"
+        },
+        {
+          "qty": 3,
+          "unit": "CAS",
+          "name": "lait d'amande"
+        },
+        {
+          "qty": 1,
+          "unit": "CAC",
+          "name": "extrait de vanille"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "sectionTitle": "general",
+      "sectionInstructions": [
+        "Déposer la farine, la poudre de cacao, le sucre, le sel et la poudre à pâte dans une tasse. Bien mélanger",
+        "Ajouter l'huile, le lait végétal, la vanille et bien mélanger",
+        "Faire cuire au micro-ondes 35 à 40 secondes."
+      ]
+    }
+  ]
+}

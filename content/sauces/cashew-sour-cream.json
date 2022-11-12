@@ -1,0 +1,60 @@
+{
+  "title": "Cashew Sour Cream",
+  "source": "https://gamechangersmovie.com/recipes/classic-cashew-sour-cream/",
+  "picture": "https://gamechangersmovie.com/wp-content/uploads/2019/09/sour-cream2.jpg",
+  "qty": 1,
+  "time": "5m",
+  "cat": {
+    "vegetarien": true,
+    "vegan": true
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 6.4,
+      "glucides": 10.4,
+      "lipides": 14.2
+    }
+  },
+  "ingredients": [
+    {
+      "sectionTitle": "general",
+      "sectionIngredients": [
+        {
+          "qty": 2,
+          "unit": "cups",
+          "name": "raw cashew, soaked in water"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "name": "apple cider vinegar"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "name": "nutritional yeast"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "name": "lemon juice"
+        },
+        {
+          "qty": 0.5,
+          "unit": "sea salt",
+          "name": ""
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "sectionTitle": "general",
+      "sectionInstructions": [
+        "In a high speed blender, blend all ingredients until thick and smooth.",
+        "Drizzle in a little bit of water at a time to just enable blending."
+      ]
+    }
+  ]
+}

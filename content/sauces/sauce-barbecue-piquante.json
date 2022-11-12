@@ -1,0 +1,57 @@
+{
+  "title": "Sauce BBQ Piquante",
+  "source": "https://alice-esmeralda.com/hot-wings-de-chou-fleur",
+  "picture": "https://imgs.search.brave.com/XzV2lYYwholosX_A67VHdZGygFOesP22wefNEfd2Fo8/rs:fit:419:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC53/bVE2U1ZDNnBmRjU5/cUtYWWEyVWlnQUFB/QSZwaWQ9QXBp",
+  "qty": 1,
+  "time": "5m",
+  "cat": {
+    "vegetarien": true,
+    "vegan": true
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 0,
+      "glucides": 23,
+      "lipides": 0
+    }
+  },
+  "ingredients": [
+    {
+      "sectionTitle": "general",
+      "sectionIngredients": [
+        {
+          "qty": 17,
+          "unit": "g",
+          "name": "ketchup"
+        },
+        {
+          "qty": 17,
+          "unit": "g",
+          "name": "sauce bbq"
+        },
+        {
+          "qty": 2,
+          "unit": "gouttes",
+          "name": "tabasco"
+        },
+        {
+          "qty": 17,
+          "unit": "g",
+          "name": "eau"
+        },
+        {
+          "qty": 0.3,
+          "unit": "tsp",
+          "name": "paprika fumé"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "sectionTitle": "general",
+      "sectionInstructions": ["Mélanger tous les ingrédients"]
+    }
+  ]
+}
