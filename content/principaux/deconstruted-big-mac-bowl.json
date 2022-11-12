@@ -1,0 +1,100 @@
+{
+  "title": "Deconstructed Big Mac Bowls",
+  "source": "https://mealprepmanual.com/deconstructed-big-mac-bowls/",
+  "picture": "https://mealprepmanual.com/wp-content/uploads/2022/02/Deconstructed-Big-Mac-Bowls-WP-e1644740279705.jpg",
+  "qty": 5,
+  "time": "35m",
+  "cat": {
+    "vegetarien": false,
+    "vegan": false
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 33,
+      "glucides": 42,
+      "lipides": 20
+    }
+  },
+  "ingredients": [
+    {
+      "sectionTitle": "patates",
+      "sectionIngredients": [
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "name": "huile"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "name": "poudre d'ail"
+        },
+        {
+          "qty": 750,
+          "unit": "g",
+          "name": "patates Russet"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "legumes",
+      "sectionIngredients": [
+        {
+          "qty": 100,
+          "unit": "g",
+          "name": "oignon"
+        },
+        {
+          "qty": 600,
+          "unit": "g",
+          "name": "chou rouge"
+        },
+        {
+          "qty": 600,
+          "unit": "g",
+          "name": "champignons"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "viande",
+      "sectionIngredients": [
+        {
+          "qty": 650,
+          "unit": "g",
+          "name": "boeuf haché"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "name": "poudre d'ail"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "sectionTitle": "general",
+      "sectionInstructions": ["Préchauffez le four à 450˚f"]
+    },
+    {
+      "sectionTitle": "patates",
+      "sectionInstructions": [
+        "Coupez les patates en dés ou en slices",
+        "Ajoutez l'huile, et assaisonner",
+        "Cuire au four 24 minutes, en retournant les patates à la moitié"
+      ]
+    },
+    {
+      "sectionTitle": "viande et legumes",
+      "sectionInstructions": [
+        "Cuire l'oignon dans une poele",
+        "Rajoutez le boeuf et assaisonner",
+        "Couper les légumes en dés égaux",
+        "Faire cuire en rajoutant la poudre d'ail",
+        "Assemblez les plats"
+      ]
+    }
+  ]
+}

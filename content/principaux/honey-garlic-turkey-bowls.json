@@ -1,0 +1,109 @@
+{
+  "title": "Honey Garlic Turkey Bowls",
+  "source": "https://mealprepmanual.com/honey-garlic-turkey-bowls/",
+  "picture": "https://mealprepmanual.com/wp-content/uploads/2021/05/Honey-Garlic-Turkey-Bowls-WP.jpg",
+  "qty": 5,
+  "time": "35m",
+  "cat": {
+    "vegetarien": false,
+    "vegan": false
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 38,
+      "glucides": 54,
+      "lipides": 19
+    }
+  },
+  "ingredients": [
+    {
+      "sectionTitle": "legumes",
+      "sectionIngredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "name": "oignon"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "name": "poivrons"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "name": "courgettes"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "name": "haricots verts"
+        },
+        {
+          "qty": 1,
+          "unit": "gousse",
+          "name": "ail"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "general",
+      "sectionIngredients": [
+        {
+          "qty": 800,
+          "unit": "g",
+          "name": "dinde"
+        },
+        {
+          "qty": 650,
+          "unit": "g",
+          "name": "riz"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "assaisonnements",
+      "sectionIngredients": [
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "name": "miel"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "name": "sriracha"
+        },
+        {
+          "qty": 3,
+          "unit": "tbsp",
+          "name": "bouillon poulet"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "name": "soy sauce"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "sectionTitle": "preparation",
+      "sectionInstructions": ["Cuire le riz"]
+    },
+    {
+      "sectionTitle": "general",
+      "sectionInstructions": [
+        "Coupez l'oignon, les poivrons et les courgettes en dés",
+        "Coupez les haricots",
+        "Cuire l'oignon, les poivrons et les courgettes et assaisonner",
+        "Cuire la viande jusqu'à brunissement",
+        "rajouter les haricots, cuire quelques minutes et assaisonner",
+        "Rajoutez l'ail",
+        "Rajoutez le miel, le bouillon, la sriracha et la sauce soy dans la viande"
+      ]
+    }
+  ]
+}
