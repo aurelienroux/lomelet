@@ -35,7 +35,9 @@ export default {
   },
   computed: {
     pluralIng() {
-      return this.ing.unit === 'unite' && this.portion > 1
+      const ingUnit = this.ing.unit === '' ? 'unite' : this.ing.unit
+
+      return ingUnit === 'unite' && this.portion > 1
     },
     portionFormat() {
       const portion = this.portion
