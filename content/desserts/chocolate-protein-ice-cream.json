@@ -1,0 +1,66 @@
+{
+  "title": "chocolate protein ice cream",
+  "source": "https://www.instagram.com/p/CjdG5JZAo5H/",
+  "picture": "https://imgs.search.brave.com/W8es8scuNdnzeCaDYkxRszMPyqGb4cgpEyVfjObpoVg/rs:fit:376:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC56/cGt4TDZhaUVqbVlk/X2YwMHRyT1NBSGFI/YSZwaWQ9QXBp",
+  "qty": 2,
+  "time": null,
+  "cat": {
+    "vegetarien": true,
+    "vegan": true
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 29,
+      "glucides": 37,
+      "lipides": 2
+    }
+  },
+  "ingredients": [
+    {
+      "sectionTitle": "General",
+      "sectionIngredients": [
+        {
+          "qty": 2,
+          "unit": "unite",
+          "name": "frozen banana"
+        },
+        {
+          "qty": 3,
+          "unit": "tbsp",
+          "name": "fat free greek yogourt"
+        },
+        {
+          "qty": 60,
+          "unit": "g",
+          "name": "chocolate protein powder"
+        },
+        {
+          "qty": 0.75,
+          "unit": "cup",
+          "name": "cocoa"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "name": "sweetener"
+        },
+        {
+          "qty": 1,
+          "unit": "bag",
+          "name": "gelatine"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "sectionTitle": "General",
+      "sectionInstructions": [
+        "Blend all the ingredients",
+        "Freeze for 3 hours",
+        "optional: add chocolate sauce"
+      ]
+    }
+  ]
+}

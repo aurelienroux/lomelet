@@ -1,0 +1,101 @@
+{
+  "title": "High protein chocolate lava cake",
+  "source": "https://www.instagram.com/p/CkF-prhDhPW/",
+  "picture": "https://imgs.search.brave.com/o_qYtuBnMC0QXMPoMBAxSdNwYl_wmIe-lRi84RVcuKY/rs:fit:456:456:1/g:ce/aHR0cDovL3BtMS5u/YXJ2aWkuY29tLzY2/ODUvMTlmYTEwMmVk/NGE3NTg5MTNkZjk1/MmRmMGVmNWFhYzJi/MTY5YzhjNF8wMC5q/cGc",
+  "qty": 1,
+  "time": 20,
+  "cat": {
+    "vegetarien": true,
+    "vegan": false
+  },
+  "nutrition": {
+    "calories": null,
+    "macros": {
+      "proteines": 53,
+      "glucides": 16,
+      "lipides": 7
+    }
+  },
+  "ingredients": [
+    {
+      "sectionTitle": "Cake",
+      "sectionIngredients": [
+        {
+          "qty": 30,
+          "unit": "g",
+          "name": "chocolate protein powder"
+        },
+        {
+          "qty": 5,
+          "unit": "g",
+          "name": "cocoa powder"
+        },
+        {
+          "qty": 4,
+          "unit": "g",
+          "name": "baking powder"
+        },
+        {
+          "qty": 130,
+          "unit": "g",
+          "name": "low fat greek yoghurt"
+        },
+        {
+          "qty": 15,
+          "unit": "g",
+          "name": "sweetener"
+        },
+        {
+          "qty": 190,
+          "unit": "ml",
+          "name": "water"
+        },
+        {
+          "qty": 20,
+          "unit": "g",
+          "name": "light whipped cream"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Sauce",
+      "sectionIngredients": [
+        {
+          "qty": 15,
+          "unit": "g",
+          "name": "chocolate protein powder"
+        },
+        {
+          "qty": 60,
+          "unit": "ml",
+          "name": "unsweetened almond milk"
+        },
+        {
+          "qty": 3,
+          "unit": "g",
+          "name": "cocoa powder"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "sectionTitle": "Cake",
+      "sectionInstructions": [
+        "Mix all ingredients",
+        "Microwave for 2 - 4 minutes taking it out every 30 seconds to avoid overflowing.",
+        "Leave it out for 10 - 15 seconds and continue.",
+        "Or bake in the oven at 180 degrees Celsius for 15 - 20 minutes (depending on the oven)"
+      ]
+    },
+    {
+      "sectionTitle": "Sauce",
+      "sectionInstructions": [
+        "Mix the chocolate protein powder and the milk",
+        "Add the cocoa powder",
+        "mix until smooth",
+        "pour the sauce on the cake"
+      ]
+    }
+  ]
+}
