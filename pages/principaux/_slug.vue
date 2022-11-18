@@ -7,8 +7,13 @@
     />
     <div class="glob-container">
       <RecipeNutrition :nutrition="recipe.nutrition" />
-      <RecipeIngredients :ingredients="recipe.ingredients" :qty="recipe.qty" />
-      <RecipeInstructions :instructions="recipe.instructions" />
+      <div class="stack">
+        <RecipeIngredients
+          :ingredients="recipe.ingredients"
+          :qty="recipe.qty"
+        />
+        <RecipeInstructions :instructions="recipe.instructions" />
+      </div>
       <RecipeOrigin :source="recipe.source" />
     </div>
   </div>
@@ -23,3 +28,11 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+@include for-tablet-landscape-up {
+  .stack {
+    display: flex;
+  }
+}
+</style>

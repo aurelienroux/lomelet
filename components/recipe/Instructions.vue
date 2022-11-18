@@ -38,6 +38,12 @@ export default {
   margin-bottom: 2rem;
 }
 
+@include for-tablet-landscape-up {
+  .container {
+    flex: 2;
+  }
+}
+
 ul {
   padding-left: 2rem;
   list-style-type: none;

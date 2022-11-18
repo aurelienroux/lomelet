@@ -60,6 +60,13 @@ export default {
   margin-bottom: 2rem;
 }
 
+@include for-tablet-landscape-up {
+  .container {
+    margin-right: 2rem;
+    flex: 1;
+  }
+}
+
 .control {
   align-items: center;
   display: flex;
