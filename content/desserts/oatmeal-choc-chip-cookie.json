@@ -2,7 +2,7 @@
   "title": "Oatmeal chocolate chip cookies",
   "source": "https://www.instagram.com/p/Cd4BJD-OPWj/",
   "picture": "https://imgs.search.brave.com/5JTHbUx9E1SCVQ1zjTAj_WxCef7X0EDGpfH_VAmyhuA/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Z/WUluVno1aWE3bzAz/cy15QU9NV3ZnSGFI/YSZwaWQ9QXBp",
-  "qty": 1,
+  "qty": 10,
   "time": "30mn",
   "cat": {
     "vegetarien": true,
@@ -23,7 +23,7 @@
         {
           "qty": 2,
           "unit": "",
-          "name": "ripe bananas"
+          "name": "ripe banana"
         },
         {
           "qty": 1.5,
@@ -53,8 +53,7 @@
       "sectionTitle": "",
       "sectionInstructions": [
         "Mix all ingredients together",
-        "Bake at 350°F for 25-30 minutes",
-        "Gives 10 cookies"
+        "Bake at 350°F for 25-30 minutes"
       ]
     }
   ]
