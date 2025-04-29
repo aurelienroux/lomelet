@@ -13,7 +13,7 @@
     "cy:open": "cypress open"
   },
   "engines": {
-    "node": "16.20.0"
+    "node": "18.20.3"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
