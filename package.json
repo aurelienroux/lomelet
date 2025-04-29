@@ -12,6 +12,9 @@
     "test": "jest",
     "cy:open": "cypress open"
   },
+  "engines": {
+    "node": "16.20.0"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@nuxt/content": "^1.11.1",
